@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="id" class="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rizky Maulana Saputra, S.Kom. | Full Stack Web Developer, System Analyst & Project Manager</title>
-    <meta name="description" content="Portofolio Resmi Rizky Maulana Saputra, S.Kom. — Lulusan S1 Informatika Universitas Gunadarma (IPK 3.68/4.00) & BNSP/LSP Certified Junior Web Programmer. Spesialis Full Stack Web Development (PHP, Laravel, React, Next.js, Go, MySQL), System Analysis, Project Management, dan IT Support.">
-    
+    <meta name="description"
+        content="Portofolio Resmi Rizky Maulana Saputra, S.Kom. — Lulusan S1 Informatika Universitas Gunadarma (IPK 3.68/4.00) & BNSP/LSP Certified Junior Web Programmer. Spesialis Full Stack Web Development (PHP, Laravel, React, Next.js, Go, MySQL), System Analysis, Project Management, dan IT Support.">
+
     <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -33,6 +37,7 @@
     <!-- Custom Stylesheet -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body class="bg-grid-pattern relative min-h-screen selection:bg-indigo-500 selection:text-white">
 
     <!-- Ambient Glow Effects -->
@@ -44,36 +49,48 @@
          ======================================================================= -->
     <header class="fixed top-4 inset-x-0 z-40 px-4">
         <div class="max-w-6xl mx-auto">
-            <nav class="bento-card px-4 sm:px-6 py-3 rounded-full flex items-center justify-between shadow-2xl border border-slate-800/90 bg-slate-950/85">
+            <nav
+                class="bento-card px-4 sm:px-6 py-3 rounded-full flex items-center justify-between shadow-2xl border border-slate-800/90 bg-slate-950/85">
                 <!-- Brand Identity -->
                 <a href="#hero" class="flex items-center gap-2.5 group">
-                    <div class="w-9 h-9 rounded-full bg-gradient-to-tr from-indigo-600 to-emerald-500 flex items-center justify-center font-extrabold text-white text-sm shadow-md">
+                    <div
+                        class="w-9 h-9 rounded-full bg-gradient-to-tr from-indigo-600 to-emerald-500 flex items-center justify-center font-extrabold text-white text-sm shadow-md">
                         RM
                     </div>
                     <div class="hidden sm:block">
-                        <span class="font-bold text-white text-sm tracking-tight block leading-none">Rizky Maulana Saputra</span>
+                        <span class="font-bold text-white text-sm tracking-tight block leading-none">Rizky Maulana
+                            Saputra</span>
                         <span class="text-[11px] text-emerald-400 font-mono">S.Kom. • Informatics</span>
                     </div>
                 </a>
 
                 <!-- Center Links -->
                 <div class="hidden md:flex items-center gap-6 text-xs font-semibold text-slate-300">
-                    <a href="#about" class="hover:text-indigo-400 transition-colors" data-id="Profil Bento" data-en="Bento Profile">Profil Bento</a>
-                    <a href="#projects" class="hover:text-indigo-400 transition-colors" data-id="Proyek & Dokumentasi PKM" data-en="Projects & PKM Gallery">Proyek & Dokumentasi PKM</a>
-                    <a href="#skills" class="hover:text-indigo-400 transition-colors" data-id="Tech Stack" data-en="Tech Stack">Tech Stack</a>
-                    <a href="#certifications" class="hover:text-indigo-400 transition-colors" data-id="Sertifikasi LSP & Pelatihan" data-en="LSP & Certifications">Sertifikasi LSP & Pelatihan</a>
-                    <a href="#journey" class="hover:text-indigo-400 transition-colors" data-id="Perjalanan" data-en="My Journey">Perjalanan</a>
+                    <a href="#about" class="hover:text-indigo-400 transition-colors" data-id="Profil"
+                        data-en="Profile">Profil</a>
+                    <a href="#projects" class="hover:text-indigo-400 transition-colors"
+                        data-id="Proyek & Dokumentasi PKM" data-en="Projects & PKM Gallery">Proyek & Dokumentasi PKM</a>
+                    <a href="#skills" class="hover:text-indigo-400 transition-colors" data-id="Tech Stack"
+                        data-en="Tech Stack">Tech Stack</a>
+                    <a href="#certifications" class="hover:text-indigo-400 transition-colors"
+                        data-id="Sertifikasi LSP & Pelatihan" data-en="LSP & Certifications">Sertifikasi LSP &
+                        Pelatihan</a>
+                    <a href="#journey" class="hover:text-indigo-400 transition-colors" data-id="Perjalanan"
+                        data-en="My Journey">Perjalanan</a>
                 </div>
 
                 <!-- Right Controls: Language Toggle & Contact CTA -->
                 <div class="flex items-center gap-2.5">
                     <!-- Instant Language Switcher -->
                     <div class="flex items-center bg-slate-900 border border-slate-800 rounded-full p-0.5">
-                        <button id="lang-btn-id" onclick="setLanguage('id')" class="px-2.5 py-1 rounded-full text-xs font-bold bg-indigo-600 text-white transition-all">ID</button>
-                        <button id="lang-btn-en" onclick="setLanguage('en')" class="px-2.5 py-1 rounded-full text-xs font-semibold text-slate-400 hover:text-white transition-all">EN</button>
+                        <button id="lang-btn-id" onclick="setLanguage('id')"
+                            class="px-2.5 py-1 rounded-full text-xs font-bold bg-indigo-600 text-white transition-all">ID</button>
+                        <button id="lang-btn-en" onclick="setLanguage('en')"
+                            class="px-2.5 py-1 rounded-full text-xs font-semibold text-slate-400 hover:text-white transition-all">EN</button>
                     </div>
 
-                    <a href="#contact" class="px-4 py-2 rounded-full text-xs font-bold bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white shadow-lg shadow-indigo-600/25 transition-all inline-flex items-center gap-1.5">
+                    <a href="#contact"
+                        class="px-4 py-2 rounded-full text-xs font-bold bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white shadow-lg shadow-indigo-600/25 transition-all inline-flex items-center gap-1.5">
                         <span data-id="Hubungi Saya" data-en="Contact Me">Hubungi Saya</span>
                         <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
                     </a>
@@ -87,83 +104,116 @@
          ======================================================================= -->
     <section id="hero" class="relative z-10 pt-32 pb-16 sm:pt-36 sm:pb-20 px-4">
         <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            
+
             <!-- Left Column: Typography, Value Statement & Smart CTAs (7 cols) -->
             <div class="lg:col-span-7 space-y-6">
                 <!-- Open to Work & Credential Pill -->
-                <div class="inline-flex flex-wrap items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-slate-800 text-xs">
+                <div
+                    class="inline-flex flex-wrap items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-slate-900/90 border border-slate-800 text-xs">
                     <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 status-dot"></span>
-                    <span class="font-bold text-emerald-400" data-id="Open to Work (Siap Bekerja Segera)" data-en="Open to Work (Immediate Availability)">Open to Work (Siap Bekerja Segera)</span>
+                    <span class="font-bold text-emerald-400" data-id="Open to Work (Siap Bekerja Segera)"
+                        data-en="Open to Work (Immediate Availability)">Open to Work (Siap Bekerja Segera)</span>
                     <span class="text-slate-600">•</span>
-                    <span class="text-slate-300 font-medium" data-id="BNSP/LSP Certified Junior Web Programmer" data-en="BNSP/LSP Certified Junior Web Programmer">BNSP/LSP Certified Junior Web Programmer</span>
+                    <span class="text-slate-300 font-medium" data-id="BNSP/LSP Certified Junior Web Programmer"
+                        data-en="BNSP/LSP Certified Junior Web Programmer">BNSP/LSP Certified Junior Web
+                        Programmer</span>
                 </div>
 
                 <!-- Main Name & Headline -->
                 <div class="space-y-3">
-                    <p class="text-sm sm:text-base font-semibold text-indigo-400 tracking-wide uppercase" data-id="Halo, Saya" data-en="Hello, I am">Halo, Saya</p>
+                    <p class="text-sm sm:text-base font-semibold text-indigo-400 tracking-wide uppercase"
+                        data-id="Halo, Saya" data-en="Hello, I am">Halo, Saya</p>
                     <h1 class="text-3xl sm:text-5xl font-extrabold text-white tracking-tight leading-tight">
-                        Rizky Maulana Saputra, <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-cyan-300 to-emerald-400">S.Kom.</span>
+                        Rizky Maulana Saputra, <span
+                            class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-cyan-300 to-emerald-400">S.Kom.</span>
                     </h1>
-                    <p class="text-base sm:text-lg font-bold text-slate-200" data-id="Full Stack Web Developer • Backend & Frontend • System Analyst • IT Support" data-en="Full Stack Web Developer • Backend & Frontend • System Analyst • IT Support">
+                    <p class="text-base sm:text-lg font-bold text-slate-200"
+                        data-id="Full Stack Web Developer • Backend & Frontend • System Analyst • IT Support"
+                        data-en="Full Stack Web Developer • Backend & Frontend • System Analyst • IT Support">
                         Full Stack Web Developer • Backend & Frontend • System Analyst • IT Support
                     </p>
                 </div>
 
                 <!-- Bio Description -->
                 <p class="text-sm sm:text-base text-slate-300 leading-relaxed text-justify"
-                   data-id="Lulusan S1 Informatika Universitas Gunadarma (IPK 3.68/4.00) dengan kombinasi keahlian teknis pengembangan web end-to-end (PHP, Laravel, React.js, Next.js, Go, MySQL/Oracle) serta kepemimpinan nyata sebagai Project Manager dan System Analyst. Terbiasa terjun langsung menganalisis kebutuhan klien, merancang arsitektur basis data, mengimplementasikan kode, hingga memimpin presentasi solusi perangkat lunak yang siap pakai."
-                   data-en="Bachelor of Informatics graduate from Universitas Gunadarma (GPA 3.68/4.00) combining end-to-end Full Stack Web Development expertise (PHP, Laravel, React.js, Next.js, Go, MySQL/Oracle) with proven leadership as a Project Manager and System Analyst. Experienced in leading direct stakeholder consultations, designing relational databases, writing clean code, and delivering production-ready software systems.">
-                    Lulusan S1 Informatika Universitas Gunadarma (IPK 3.68/4.00) dengan kombinasi keahlian teknis pengembangan web end-to-end (PHP, Laravel, React.js, Next.js, Go, MySQL/Oracle) serta kepemimpinan nyata sebagai Project Manager dan System Analyst. Terbiasa terjun langsung menganalisis kebutuhan klien, merancang arsitektur basis data, mengimplementasikan kode, hingga memimpin presentasi solusi perangkat lunak yang siap pakai.
+                    data-id="Lulusan S1 Informatika Universitas Gunadarma (IPK 3.68/4.00) dengan kombinasi keahlian teknis pengembangan web end-to-end (PHP, Laravel, React.js, Next.js, Go, MySQL/Oracle) serta kepemimpinan nyata sebagai Project Manager dan System Analyst. Terbiasa terjun langsung menganalisis kebutuhan klien, merancang arsitektur basis data, mengimplementasikan kode, hingga memimpin presentasi solusi perangkat lunak yang siap pakai."
+                    data-en="Bachelor of Informatics graduate from Universitas Gunadarma (GPA 3.68/4.00) combining end-to-end Full Stack Web Development expertise (PHP, Laravel, React.js, Next.js, Go, MySQL/Oracle) with proven leadership as a Project Manager and System Analyst. Experienced in leading direct stakeholder consultations, designing relational databases, writing clean code, and delivering production-ready software systems.">
+                    Lulusan S1 Informatika Universitas Gunadarma (IPK 3.68/4.00) dengan kombinasi keahlian teknis
+                    pengembangan web end-to-end (PHP, Laravel, React.js, Next.js, Go, MySQL/Oracle) serta kepemimpinan
+                    nyata sebagai Project Manager dan System Analyst. Terbiasa terjun langsung menganalisis kebutuhan
+                    klien, merancang arsitektur basis data, mengimplementasikan kode, hingga memimpin presentasi solusi
+                    perangkat lunak yang siap pakai.
                 </p>
 
                 <!-- Action Buttons (Explore Projects + Smart Dual-CV Dropdown + Socials) -->
-                <div class="flex flex-wrap items-center gap-3 pt-2">
-                    <a href="#projects" class="px-5 py-3 rounded-xl font-bold text-xs sm:text-sm bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/30 transition-all inline-flex items-center gap-2">
-                        <i data-lucide="layers" class="w-4 h-4"></i>
-                        <span data-id="Lihat Proyek & Dokumentasi" data-en="Explore Projects & Gallery">Lihat Proyek & Dokumentasi</span>
-                    </a>
+                <div class="space-y-3 pt-2">
+                    <!-- Baris 1: Tombol Aksi Utama -->
+                    <div class="flex flex-wrap items-center gap-3">
+                        <a href="#projects"
+                            class="px-5 py-3 rounded-xl font-bold text-xs sm:text-sm bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/30 transition-all inline-flex items-center gap-2">
+                            <i data-lucide="layers" class="w-4 h-4"></i>
+                            <span data-id="Lihat Proyek & Dokumentasi" data-en="Explore Projects & Gallery">Lihat Proyek
+                                & Dokumentasi</span>
+                        </a>
 
-                    <!-- Smart CV ATS Dropdown (Indonesian & English Versions) -->
-                    <div class="relative">
-                        <button onclick="toggleCvMenu(event)" class="px-5 py-3 rounded-xl font-bold text-xs sm:text-sm bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 transition-all inline-flex items-center gap-2">
-                            <i data-lucide="file-down" class="w-4 h-4 text-emerald-400"></i>
-                            <span data-id="Download CV ATS (ID / EN)" data-en="Download ATS CV (ID / EN)">Download CV ATS (ID / EN)</span>
-                            <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400"></i>
-                        </button>
-                        <div id="cv-dropdown-menu" class="hidden absolute left-0 mt-2 w-64 rounded-xl bg-slate-900 border border-slate-700 shadow-2xl p-2 z-50 space-y-1">
-                            <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_ID.pdf" target="_blank" download class="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-indigo-600/20 text-xs font-semibold text-slate-200 hover:text-white transition-colors">
-                                <span class="flex items-center gap-2">🇮🇩 CV ATS Bahasa Indonesia</span>
-                                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-emerald-400">PDF</span>
-                            </a>
-                            <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_EN.pdf" target="_blank" download class="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-indigo-600/20 text-xs font-semibold text-slate-200 hover:text-white transition-colors">
-                                <span class="flex items-center gap-2">🇬🇧 CV ATS English Version</span>
-                                <span class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-indigo-400">PDF</span>
-                            </a>
-                            <div class="border-t border-slate-800 my-1"></div>
-                            <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_ID.docx" download class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-slate-800 text-[11px] text-slate-400 hover:text-slate-200 transition-colors">
-                                <span>Versi Word (.docx) - ID</span>
-                                <span>DOCX</span>
-                            </a>
-                            <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_EN.docx" download class="flex items-center justify-between px-3 py-2 rounded-lg hover:bg-slate-800 text-[11px] text-slate-400 hover:text-slate-200 transition-colors">
-                                <span>Word Version (.docx) - EN</span>
-                                <span>DOCX</span>
-                            </a>
+                        <!-- Smart CV ATS Dropdown (Indonesian & English Versions) -->
+                        <div class="relative">
+                            <button onclick="toggleCvMenu(event)"
+                                class="px-5 py-3 rounded-xl font-bold text-xs sm:text-sm bg-slate-900 hover:bg-slate-800 text-white border border-slate-700 transition-all inline-flex items-center gap-2">
+                                <i data-lucide="file-down" class="w-4 h-4 text-emerald-400"></i>
+                                <span data-id="Download CV ATS (ID / EN)" data-en="Download ATS CV (ID / EN)">Download
+                                    CV ATS (ID / EN)</span>
+                                <i data-lucide="chevron-down" class="w-4 h-4 text-slate-400"></i>
+                            </button>
+                            <div id="cv-dropdown-menu"
+                                class="hidden absolute left-0 mt-2 w-64 rounded-xl bg-slate-900 border border-slate-700 shadow-2xl p-2 z-50 space-y-1">
+                                <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_ID.pdf" target="_blank" download
+                                    class="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-indigo-600/20 text-xs font-semibold text-slate-200 hover:text-white transition-colors">
+                                    <span class="flex items-center gap-2">🇮🇩 CV ATS Bahasa Indonesia</span>
+                                    <span
+                                        class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-emerald-400">PDF</span>
+                                </a>
+                                <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_EN.pdf" target="_blank" download
+                                    class="flex items-center justify-between px-3 py-2.5 rounded-lg hover:bg-indigo-600/20 text-xs font-semibold text-slate-200 hover:text-white transition-colors">
+                                    <span class="flex items-center gap-2">🇬🇧 CV ATS English Version</span>
+                                    <span
+                                        class="text-[10px] font-mono px-1.5 py-0.5 rounded bg-slate-800 text-indigo-400">PDF</span>
+                                </a>
+
+                            </div>
                         </div>
                     </div>
 
-                    <!-- Social Shortcuts with Tooltips -->
-                    <a href="https://github.com/DoICare" target="_blank" rel="noopener" class="relative group p-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-indigo-500/50 text-slate-300 hover:text-white transition-all" title="GitHub: DoICare">
-                        <i data-lucide="github" class="w-4 h-4"></i>
-                        <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded bg-slate-900 border border-slate-700 text-[10px] font-semibold text-white opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap shadow-xl">GitHub</span>
-                    </a>
-                    <a href="https://www.linkedin.com/in/rizkymaulanasaputra14" target="_blank" rel="noopener" class="relative group p-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-indigo-500/50 text-slate-300 hover:text-white transition-all" title="LinkedIn: rizkymaulanasaputra14">
-                        <i data-lucide="linkedin" class="w-4 h-4"></i>
-                        <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded bg-slate-900 border border-slate-700 text-[10px] font-semibold text-white opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap shadow-xl">LinkedIn</span>
-                    </a>
-                    <a href="https://wa.me/6285697992400" target="_blank" rel="noopener" class="relative group p-3 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-800 hover:border-emerald-500/50 text-emerald-400 hover:text-emerald-300 transition-all" title="WhatsApp: 0856-9799-2400">
-                        <i data-lucide="message-circle" class="w-4 h-4"></i>
-                        <span class="absolute -bottom-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded bg-slate-900 border border-slate-700 text-[10px] font-semibold text-white opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap shadow-xl" data-id="Chat WhatsApp" data-en="WhatsApp Chat">Chat WhatsApp</span>
-                    </a>
+                    <!-- Baris 2: Tautan Profil Sosial & WhatsApp (Ikon Jelas + Teks Label) -->
+                    <div class="flex flex-wrap items-center gap-2.5 pt-1">
+                        <a href="https://github.com/DoICare" target="_blank" rel="noopener"
+                            class="px-3.5 py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-800 hover:border-slate-700 text-slate-200 text-xs font-semibold inline-flex items-center gap-2 transition-all"
+                            title="GitHub: DoICare">
+                            <svg class="w-4 h-4 fill-current text-slate-200" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z" />
+                            </svg>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.linkedin.com/in/rizkymaulanasaputra14" target="_blank" rel="noopener"
+                            class="px-3.5 py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-800 hover:border-indigo-500/40 text-indigo-300 text-xs font-semibold inline-flex items-center gap-2 transition-all"
+                            title="LinkedIn: rizkymaulanasaputra14">
+                            <svg class="w-4 h-4 fill-current text-indigo-400" viewBox="0 0 24 24">
+                                <path
+                                    d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                            </svg>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://wa.me/6285697992400" target="_blank" rel="noopener"
+                            class="px-3.5 py-2 rounded-xl bg-slate-900/90 hover:bg-slate-800 border border-slate-800 hover:border-emerald-500/40 text-emerald-400 text-xs font-semibold inline-flex items-center gap-2 transition-all"
+                            title="WhatsApp: 0856-9799-2400">
+                            <svg class="w-4 h-4 fill-current text-emerald-400" viewBox="0 0 24 24">
+                                <path
+                                    d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z" />
+                            </svg>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
                 </div>
             </div>
 
@@ -171,13 +221,19 @@
             <div class="lg:col-span-5 flex justify-center">
                 <div class="relative w-full max-w-sm">
                     <!-- Decorative Glow Backdrop -->
-                    <div class="absolute -inset-2 rounded-3xl bg-gradient-to-tr from-indigo-600/30 via-cyan-500/15 to-emerald-500/30 blur-xl"></div>
-                    
+                    <div
+                        class="absolute -inset-2 rounded-3xl bg-gradient-to-tr from-indigo-600/30 via-cyan-500/15 to-emerald-500/30 blur-xl">
+                    </div>
+
                     <div class="bento-card relative p-5 rounded-3xl border border-slate-700/80 bg-slate-900/85">
                         <div class="relative rounded-2xl overflow-hidden aspect-[3/4] border border-slate-800">
-                            <img src="assets/img/profile-formal.jpg" alt="Rizky Maulana Saputra, S.Kom." class="w-full h-full object-cover object-top">
-                            <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent p-4">
-                                <span class="text-[11px] font-mono text-emerald-400 uppercase tracking-wider">Universitas Gunadarma (2022–2026)</span>
+                            <img src="assets/img/profile-formal.jpg" alt="Rizky Maulana Saputra, S.Kom."
+                                class="w-full h-full object-cover object-top">
+                            <div
+                                class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent p-4">
+                                <span
+                                    class="text-[11px] font-mono text-emerald-400 uppercase tracking-wider">Universitas
+                                    Gunadarma (2022–2026)</span>
                                 <h3 class="text-base font-bold text-white">Rizky Maulana Saputra, S.Kom.</h3>
                                 <p class="text-xs text-slate-300">Bekasi, Indonesia • IPK 3.68 / 4.00</p>
                             </div>
@@ -187,15 +243,18 @@
                         <div class="grid grid-cols-3 gap-2 mt-4 text-center">
                             <div class="p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80">
                                 <div class="text-base font-extrabold text-white">3.68</div>
-                                <div class="text-[10px] text-slate-400" data-id="IPK S1 (/4.00)" data-en="GPA (/4.00)">IPK S1 (/4.00)</div>
+                                <div class="text-[10px] text-slate-400" data-id="IPK S1 (/4.00)" data-en="GPA (/4.00)">
+                                    IPK S1 (/4.00)</div>
                             </div>
                             <div class="p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80">
                                 <div class="text-base font-extrabold text-emerald-400">8 Unit</div>
-                                <div class="text-[10px] text-slate-400" data-id="Kompetensi LSP" data-en="LSP Units">Kompetensi LSP</div>
+                                <div class="text-[10px] text-slate-400" data-id="Kompetensi LSP" data-en="LSP Units">
+                                    Kompetensi LSP</div>
                             </div>
                             <div class="p-2.5 rounded-xl bg-slate-950/80 border border-slate-800/80">
                                 <div class="text-base font-extrabold text-indigo-400">10+</div>
-                                <div class="text-[10px] text-slate-400" data-id="Sertifikat IT" data-en="IT Certificates">Sertifikat IT</div>
+                                <div class="text-[10px] text-slate-400" data-id="Sertifikat IT"
+                                    data-en="IT Certificates">Sertifikat IT</div>
                             </div>
                         </div>
                     </div>
@@ -239,31 +298,47 @@
             <!-- Section Header -->
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
-                    <span class="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-widest" data-id="01 // PROFIL & KEUNGGULAN UTAMA" data-en="01 // EXECUTIVE BENTO PROFILE">01 // PROFIL & KEUNGGULAN UTAMA</span>
-                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1" data-id="Kombinasi Teknis, Analisis Sistem & Kepemimpinan" data-en="Bridging Full Stack Engineering, System Analysis & Leadership">Kombinasi Teknis, Analisis Sistem & Kepemimpinan</h2>
+                    <span class="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-widest"
+                        data-id="01 // PROFIL & KEUNGGULAN UTAMA" data-en="01 // EXECUTIVE BENTO PROFILE">01 // PROFIL &
+                        KEUNGGULAN UTAMA</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1"
+                        data-id="Kombinasi Teknis, Analisis Sistem & Kepemimpinan"
+                        data-en="Bridging Full Stack Engineering, System Analysis & Leadership">Kombinasi Teknis,
+                        Analisis Sistem & Kepemimpinan</h2>
                 </div>
-                <p class="text-xs sm:text-sm text-slate-400 max-w-md" data-id="Dirancang dalam tata letak Bento Grid agar HRD dan tim rekruter dapat melihat kualifikasi inti saya secara cepat dan terukur." data-en="Structured in an interactive Bento Grid so recruiters and hiring managers can evaluate my core qualifications at a glance.">
-                    Dirancang dalam tata letak Bento Grid agar HRD dan tim rekruter dapat melihat kualifikasi inti saya secara cepat dan terukur.
+                <p class="text-xs sm:text-sm text-slate-400 max-w-md"
+                    data-id="Dirancang dalam tata letak Bento Grid agar HRD dan tim rekruter dapat melihat kualifikasi inti saya secara cepat dan terukur."
+                    data-en="Structured in an interactive Bento Grid so recruiters and hiring managers can evaluate my core qualifications at a glance.">
+                    Dirancang dalam tata letak Bento Grid agar HRD dan tim rekruter dapat melihat kualifikasi inti saya
+                    secara cepat dan terukur.
                 </p>
             </div>
 
             <!-- Bento Grid Layout -->
             <div class="grid grid-cols-1 md:grid-cols-12 gap-5">
-                
+
                 <!-- Bento Box 1: Core Value Proposition (7 cols) -->
                 <div class="md:col-span-7 bento-card p-6 sm:p-7 flex flex-col justify-between">
                     <div class="space-y-3">
-                        <div class="inline-flex items-center gap-2 text-xs font-bold text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 px-3 py-1 rounded-full">
+                        <div
+                            class="inline-flex items-center gap-2 text-xs font-bold text-indigo-400 bg-indigo-500/10 border border-indigo-500/20 px-3 py-1 rounded-full">
                             <i data-lucide="sparkles" class="w-3.5 h-3.5"></i>
-                            <span data-id="Keunggulan Unik (Unique Value Proposition)" data-en="Unique Value Proposition">Keunggulan Unik (Unique Value Proposition)</span>
+                            <span data-id="Keunggulan Unik (Unique Value Proposition)"
+                                data-en="Unique Value Proposition">Keunggulan Unik (Unique Value Proposition)</span>
                         </div>
-                        <h3 class="text-lg sm:text-xl font-bold text-white" data-id="Tidak Sekadar Menulis Kode, Tetapi Memastikan Sistem Menjawab Kebutuhan Nyata" data-en="More Than Writing Code: Delivering Systems That Solve Real Problems">
+                        <h3 class="text-lg sm:text-xl font-bold text-white"
+                            data-id="Tidak Sekadar Menulis Kode, Tetapi Memastikan Sistem Menjawab Kebutuhan Nyata"
+                            data-en="More Than Writing Code: Delivering Systems That Solve Real Problems">
                             Tidak Sekadar Menulis Kode, Tetapi Memastikan Sistem Menjawab Kebutuhan Nyata
                         </h3>
                         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"
-                           data-id="Banyak pengembang hanya fokus pada sisi teknis, sementara saya terbiasa memulai dari hulu ke hilir: berdiskusi langsung dengan pemangku kepentingan (seperti perangkat Kelurahan Manggarai Selatan), memetakan alur kerja menjadi spesifikasi sistem (System Analysis), memimpin pembagian tugas tim sebagai Project Manager, mengimplementasikan kode Full Stack (Frontend, Backend, Database), hingga menguji dan mempresentasikan hasilnya."
-                           data-en="Beyond hands-on coding, I manage the complete software lifecycle: initiating direct stakeholder consultations (such as with Manggarai Selatan Sub-District officials), translating administrative workflows into system specifications (System Analysis), leading development teams as a Project Manager, building Full Stack modules, and conducting thorough quality assurance.">
-                            Banyak pengembang hanya fokus pada sisi teknis, sementara saya terbiasa memulai dari hulu ke hilir: berdiskusi langsung dengan pemangku kepentingan (seperti perangkat Kelurahan Manggarai Selatan), memetakan alur kerja menjadi spesifikasi sistem (System Analysis), memimpin pembagian tugas tim sebagai Project Manager, mengimplementasikan kode Full Stack (Frontend, Backend, Database), hingga menguji dan mempresentasikan hasilnya.
+                            data-id="Banyak pengembang hanya fokus pada sisi teknis, sementara saya terbiasa memulai dari hulu ke hilir: berdiskusi langsung dengan pemangku kepentingan (seperti perangkat Kelurahan Manggarai Selatan), memetakan alur kerja menjadi spesifikasi sistem (System Analysis), memimpin pembagian tugas tim sebagai Project Manager, mengimplementasikan kode Full Stack (Frontend, Backend, Database), hingga menguji dan mempresentasikan hasilnya."
+                            data-en="Beyond hands-on coding, I manage the complete software lifecycle: initiating direct stakeholder consultations (such as with Manggarai Selatan Sub-District officials), translating administrative workflows into system specifications (System Analysis), leading development teams as a Project Manager, building Full Stack modules, and conducting thorough quality assurance.">
+                            Banyak pengembang hanya fokus pada sisi teknis, sementara saya terbiasa memulai dari hulu ke
+                            hilir: berdiskusi langsung dengan pemangku kepentingan (seperti perangkat Kelurahan
+                            Manggarai Selatan), memetakan alur kerja menjadi spesifikasi sistem (System Analysis),
+                            memimpin pembagian tugas tim sebagai Project Manager, mengimplementasikan kode Full Stack
+                            (Frontend, Backend, Database), hingga menguji dan mempresentasikan hasilnya.
                         </p>
                     </div>
                     <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-6 mt-6 border-t border-slate-800/80">
@@ -290,71 +365,99 @@
                 <div class="md:col-span-5 bento-card p-6 sm:p-7 flex flex-col justify-between">
                     <div>
                         <div class="flex items-center justify-between mb-3">
-                            <span class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
+                            <span
+                                class="inline-flex items-center gap-1.5 text-xs font-bold text-emerald-400 bg-emerald-500/10 border border-emerald-500/20 px-3 py-1 rounded-full">
                                 <i data-lucide="graduation-cap" class="w-3.5 h-3.5"></i>
                                 <span data-id="Pendidikan Tinggi" data-en="Higher Education">Pendidikan Tinggi</span>
                             </span>
                             <span class="text-xs font-mono text-slate-400">2022 – 2026</span>
                         </div>
                         <h3 class="text-lg font-bold text-white">Universitas Gunadarma</h3>
-                        <p class="text-xs sm:text-sm text-indigo-300 font-semibold mt-0.5" data-id="Sarjana Komputer (S1 Informatika) • IPK 3.68 / 4.00" data-en="Bachelor of Informatics (S.Kom.) • GPA 3.68 / 4.00">
+                        <p class="text-xs sm:text-sm text-indigo-300 font-semibold mt-0.5"
+                            data-id="Sarjana Komputer (S1 Informatika) • IPK 3.68 / 4.00"
+                            data-en="Bachelor of Informatics (S.Kom.) • GPA 3.68 / 4.00">
                             Sarjana Komputer (S1 Informatika) • IPK 3.68 / 4.00
                         </p>
                         <p class="text-xs text-slate-400 mt-3 leading-relaxed"
-                           data-id="Fokus Mata Kuliah: Pengelolaan Proyek Perangkat Lunak (PPPL), Pemrograman Web, Rekayasa Perangkat Lunak, Sistem Basis Data, Analisis & Perancangan Sistem, Jaringan Komputer, dan Kecerdasan Buatan."
-                           data-en="Key Coursework: Software Project Management (PPPL), Web Programming, Software Engineering, Database Management Systems, System Analysis & Design, Computer Networks, and Artificial Intelligence.">
-                            Fokus Mata Kuliah: Pengelolaan Proyek Perangkat Lunak (PPPL), Pemrograman Web, Rekayasa Perangkat Lunak, Sistem Basis Data, Analisis & Perancangan Sistem, Jaringan Komputer, dan Kecerdasan Buatan.
+                            data-id="Fokus Mata Kuliah: Pengelolaan Proyek Perangkat Lunak (PPPL), Pemrograman Web, Rekayasa Perangkat Lunak, Sistem Basis Data, Analisis & Perancangan Sistem, Jaringan Komputer, dan Kecerdasan Buatan."
+                            data-en="Key Coursework: Software Project Management (PPPL), Web Programming, Software Engineering, Database Management Systems, System Analysis & Design, Computer Networks, and Artificial Intelligence.">
+                            Fokus Mata Kuliah: Pengelolaan Proyek Perangkat Lunak (PPPL), Pemrograman Web, Rekayasa
+                            Perangkat Lunak, Sistem Basis Data, Analisis & Perancangan Sistem, Jaringan Komputer, dan
+                            Kecerdasan Buatan.
                         </p>
                     </div>
                     <div class="mt-5 pt-4 border-t border-slate-800/80 flex items-center justify-between text-xs">
-                        <span class="text-slate-400" data-id="Status Kelulusan:" data-en="Graduation Status:">Status Kelulusan:</span>
-                        <span class="font-bold text-emerald-400" data-id="Lulusan Baru (Fresh Graduate 2026)" data-en="Fresh Graduate (2026)">Lulusan Baru (Fresh Graduate 2026)</span>
+                        <span class="text-slate-400" data-id="Status Kelulusan:" data-en="Graduation Status:">Status
+                            Kelulusan:</span>
+                        <span class="font-bold text-emerald-400" data-id="Lulusan Baru (Fresh Graduate 2026)"
+                            data-en="Fresh Graduate (2026)">Lulusan Baru (Fresh Graduate 2026)</span>
                     </div>
                 </div>
 
                 <!-- Bento Box 3: Target Role Readiness (12 cols split into 4 role cards) -->
                 <div class="md:col-span-12 bento-card p-6">
                     <div class="flex items-center justify-between mb-4">
-                        <h3 class="text-sm font-bold uppercase tracking-wider text-slate-300" data-id="Kesiapan Posisi Target (Target Roles Readiness)" data-en="Target Roles & Core Contributions">
+                        <h3 class="text-sm font-bold uppercase tracking-wider text-slate-300"
+                            data-id="Kesiapan Posisi Target (Target Roles Readiness)"
+                            data-en="Target Roles & Core Contributions">
                             Kesiapan Posisi Target (Target Roles Readiness)
                         </h3>
-                        <span class="text-xs text-emerald-400 font-medium" data-id="Notice Period: <= 1 Bulan (Siap Segera)" data-en="Notice Period: <= 1 Month (Immediate)">Notice Period: &lt;= 1 Bulan (Siap Segera)</span>
+                        <span class="text-xs text-emerald-400 font-medium"
+                            data-id="Notice Period: <= 1 Bulan (Siap Segera)"
+                            data-en="Notice Period: <= 1 Month (Immediate)">Notice Period: &lt;= 1 Bulan (Siap
+                            Segera)</span>
                     </div>
                     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
                         <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
-                            <div class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center mb-2.5">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center mb-2.5">
                                 <i data-lucide="code-2" class="w-4 h-4"></i>
                             </div>
                             <h4 class="text-sm font-bold text-white">Full Stack / Backend / Frontend</h4>
-                            <p class="text-xs text-slate-400 mt-1 leading-relaxed" data-id="Membangun aplikasi web responsif & RESTful dengan PHP, Laravel, React.js, Next.js, Go, dan MySQL." data-en="Building responsive web apps & RESTful services using PHP, Laravel, React.js, Next.js, Go, and MySQL.">
-                                Membangun aplikasi web responsif & RESTful dengan PHP, Laravel, React.js, Next.js, Go, dan MySQL.
+                            <p class="text-xs text-slate-400 mt-1 leading-relaxed"
+                                data-id="Membangun aplikasi web responsif & RESTful dengan PHP, Laravel, React.js, Next.js, Go, dan MySQL."
+                                data-en="Building responsive web apps & RESTful services using PHP, Laravel, React.js, Next.js, Go, and MySQL.">
+                                Membangun aplikasi web responsif & RESTful dengan PHP, Laravel, React.js, Next.js, Go,
+                                dan MySQL.
                             </p>
                         </div>
                         <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
-                            <div class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-2.5">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center mb-2.5">
                                 <i data-lucide="git-branch" class="w-4 h-4"></i>
                             </div>
                             <h4 class="text-sm font-bold text-white">System Analyst</h4>
-                            <p class="text-xs text-slate-400 mt-1 leading-relaxed" data-id="Menggali kebutuhan user, menyusun spesifikasi bisnis, merancang UML, ERD, dan alur sistem." data-en="Gathering stakeholder requirements, designing UML diagrams, ERDs, and structured system workflows.">
-                                Menggali kebutuhan user, menyusun spesifikasi bisnis, merancang UML, ERD, dan alur sistem.
+                            <p class="text-xs text-slate-400 mt-1 leading-relaxed"
+                                data-id="Menggali kebutuhan user, menyusun spesifikasi bisnis, merancang UML, ERD, dan alur sistem."
+                                data-en="Gathering stakeholder requirements, designing UML diagrams, ERDs, and structured system workflows.">
+                                Menggali kebutuhan user, menyusun spesifikasi bisnis, merancang UML, ERD, dan alur
+                                sistem.
                             </p>
                         </div>
                         <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
-                            <div class="w-8 h-8 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center mb-2.5">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center mb-2.5">
                                 <i data-lucide="users" class="w-4 h-4"></i>
                             </div>
                             <h4 class="text-sm font-bold text-white">IT Project Coordinator / PM</h4>
-                            <p class="text-xs text-slate-400 mt-1 leading-relaxed" data-id="Mengelola timeline pengembangan, pembagian tugas tim, quality assurance, dan presentasi stakeholder." data-en="Managing development timelines, team task allocation, quality assurance, and stakeholder presentations.">
-                                Mengelola timeline pengembangan, pembagian tugas tim, quality assurance, dan presentasi stakeholder.
+                            <p class="text-xs text-slate-400 mt-1 leading-relaxed"
+                                data-id="Mengelola timeline pengembangan, pembagian tugas tim, quality assurance, dan presentasi stakeholder."
+                                data-en="Managing development timelines, team task allocation, quality assurance, and stakeholder presentations.">
+                                Mengelola timeline pengembangan, pembagian tugas tim, quality assurance, dan presentasi
+                                stakeholder.
                             </p>
                         </div>
                         <div class="p-4 rounded-xl bg-slate-900/90 border border-slate-800">
-                            <div class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center mb-2.5">
+                            <div
+                                class="w-8 h-8 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center mb-2.5">
                                 <i data-lucide="wifi" class="w-4 h-4"></i>
                             </div>
                             <h4 class="text-sm font-bold text-white">IT Support & Database Admin</h4>
-                            <p class="text-xs text-slate-400 mt-1 leading-relaxed" data-id="Troubleshooting software/hardware, konfigurasi Wireless LAN & TCP/IP, serta administrasi MySQL/Oracle." data-en="Software/hardware troubleshooting, Wireless LAN & TCP/IP configuration, and MySQL/Oracle administration.">
-                                Troubleshooting software/hardware, konfigurasi Wireless LAN & TCP/IP, serta administrasi MySQL/Oracle.
+                            <p class="text-xs text-slate-400 mt-1 leading-relaxed"
+                                data-id="Troubleshooting software/hardware, konfigurasi Wireless LAN & TCP/IP, serta administrasi MySQL/Oracle."
+                                data-en="Software/hardware troubleshooting, Wireless LAN & TCP/IP configuration, and MySQL/Oracle administration.">
+                                Troubleshooting software/hardware, konfigurasi Wireless LAN & TCP/IP, serta administrasi
+                                MySQL/Oracle.
                             </p>
                         </div>
                     </div>
@@ -369,15 +472,22 @@
          ======================================================================= -->
     <section id="projects" class="relative z-10 py-20 px-4 bg-slate-950/50 border-y border-slate-900">
         <div class="max-w-6xl mx-auto space-y-12">
-            
+
             <!-- Section Header -->
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
-                    <span class="text-xs font-mono font-semibold text-emerald-400 uppercase tracking-widest" data-id="02 // PORTOFOLIO PROYEK & STUDI KASUS" data-en="02 // FEATURED PROJECTS & CASE STUDIES">02 // PORTOFOLIO PROYEK & STUDI KASUS</span>
-                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1" data-id="Implementasi Sistem Nyata & Dokumentasi Lapangan" data-en="Real-World Software Systems & Field Documentation">Implementasi Sistem Nyata & Dokumentasi Lapangan</h2>
+                    <span class="text-xs font-mono font-semibold text-emerald-400 uppercase tracking-widest"
+                        data-id="02 // PORTOFOLIO PROYEK & STUDI KASUS"
+                        data-en="02 // FEATURED PROJECTS & CASE STUDIES">02 // PORTOFOLIO PROYEK & STUDI KASUS</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1"
+                        data-id="Implementasi Sistem Nyata & Dokumentasi Lapangan"
+                        data-en="Real-World Software Systems & Field Documentation">Implementasi Sistem Nyata &
+                        Dokumentasi Lapangan</h2>
                 </div>
-                <a href="https://github.com/DoICare" target="_blank" rel="noopener" class="text-xs font-bold text-indigo-400 hover:text-indigo-300 inline-flex items-center gap-1.5">
-                    <span data-id="Lihat Repositori di GitHub" data-en="View Repositories on GitHub">Lihat Repositori di GitHub</span>
+                <a href="https://github.com/DoICare" target="_blank" rel="noopener"
+                    class="text-xs font-bold text-indigo-400 hover:text-indigo-300 inline-flex items-center gap-1.5">
+                    <span data-id="Lihat Repositori di GitHub" data-en="View Repositories on GitHub">Lihat Repositori di
+                        GitHub</span>
                     <i data-lucide="external-link" class="w-4 h-4"></i>
                 </a>
             </div>
@@ -390,13 +500,17 @@
                     <!-- Left: Case Study Details (7 cols) -->
                     <div class="lg:col-span-7 space-y-4">
                         <div class="flex flex-wrap items-center gap-2">
-                            <span class="px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                            <span
+                                class="px-3 py-1 rounded-full text-[11px] font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
                                 GovTech & Public Service Digitalization
                             </span>
-                            <span class="px-3 py-1 rounded-full text-[11px] font-semibold bg-indigo-500/15 text-indigo-300 border border-indigo-500/30" data-id="Proyek PKM – Mata Kuliah PPPL" data-en="PKM Project – PPPL Course">
+                            <span
+                                class="px-3 py-1 rounded-full text-[11px] font-semibold bg-indigo-500/15 text-indigo-300 border border-indigo-500/30"
+                                data-id="Proyek PKM – Mata Kuliah PPPL" data-en="PKM Project – PPPL Course">
                                 Proyek PKM – Mata Kuliah PPPL
                             </span>
-                            <a href="https://manggaraiselatan.wuaze.com" target="_blank" rel="noopener" class="px-3 py-1 rounded-full text-[11px] font-mono bg-slate-900 hover:bg-slate-800 text-cyan-300 border border-cyan-500/30 inline-flex items-center gap-1 transition-colors">
+                            <a href="https://manggaraiselatan.wuaze.com" target="_blank" rel="noopener"
+                                class="px-3 py-1 rounded-full text-[11px] font-mono bg-slate-900 hover:bg-slate-800 text-cyan-300 border border-cyan-500/30 inline-flex items-center gap-1 transition-colors">
                                 <i data-lucide="globe" class="w-3 h-3"></i> manggaraiselatan.wuaze.com
                             </a>
                         </div>
@@ -408,60 +522,90 @@
                         </h3>
 
                         <p class="text-xs sm:text-sm font-semibold text-indigo-300"
-                           data-id="Peran: Project Manager, System Analyst & Full Stack Web Developer (Okt 2025 – Des 2025)"
-                           data-en="Role: Project Manager, System Analyst & Full Stack Web Developer (Oct 2025 – Dec 2025)">
+                            data-id="Peran: Project Manager, System Analyst & Full Stack Web Developer (Okt 2025 – Des 2025)"
+                            data-en="Role: Project Manager, System Analyst & Full Stack Web Developer (Oct 2025 – Dec 2025)">
                             Peran: Project Manager, System Analyst & Full Stack Web Developer (Okt 2025 – Des 2025)
                         </p>
 
                         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"
-                           data-id="Proyek Pengabdian Kepada Masyarakat (PKM) dari mata kuliah Pengelolaan Proyek Perangkat Lunak (PPPL) yang mendigitalisasi papan informasi jadwal pelayanan warga, dokumentasi kegiatan kelurahan (BPJS, PPSU, kemasyarakatan), serta pengumuman berjalan (running text) di Kelurahan Manggarai Selatan, Kecamatan Tebet, Jakarta Selatan."
-                           data-en="Community Service (PKM) project under the Software Project Management (PPPL) course digitizing public service schedules, sub-district activity announcements (BPJS, PPSU, community programs), and live running text displays at Manggarai Selatan Sub-District, Tebet, South Jakarta.">
-                            Proyek Pengabdian Kepada Masyarakat (PKM) dari mata kuliah Pengelolaan Proyek Perangkat Lunak (PPPL) yang mendigitalisasi papan informasi jadwal pelayanan warga, dokumentasi kegiatan kelurahan (BPJS, PPSU, kemasyarakatan), serta pengumuman berjalan (running text) di Kelurahan Manggarai Selatan, Kecamatan Tebet, Jakarta Selatan.
+                            data-id="Proyek Pengabdian Kepada Masyarakat (PKM) dari mata kuliah Pengelolaan Proyek Perangkat Lunak (PPPL) yang mendigitalisasi papan informasi jadwal pelayanan warga, dokumentasi kegiatan kelurahan (BPJS, PPSU, kemasyarakatan), serta pengumuman berjalan (running text) di Kelurahan Manggarai Selatan, Kecamatan Tebet, Jakarta Selatan."
+                            data-en="Community Service (PKM) project under the Software Project Management (PPPL) course digitizing public service schedules, sub-district activity announcements (BPJS, PPSU, community programs), and live running text displays at Manggarai Selatan Sub-District, Tebet, South Jakarta.">
+                            Proyek Pengabdian Kepada Masyarakat (PKM) dari mata kuliah Pengelolaan Proyek Perangkat
+                            Lunak (PPPL) yang mendigitalisasi papan informasi jadwal pelayanan warga, dokumentasi
+                            kegiatan kelurahan (BPJS, PPSU, kemasyarakatan), serta pengumuman berjalan (running text) di
+                            Kelurahan Manggarai Selatan, Kecamatan Tebet, Jakarta Selatan.
                         </p>
 
                         <ul class="space-y-2 text-xs sm:text-sm text-slate-300">
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
-                                <span data-id="<strong>Inisiasi Klien & Kepemimpinan Proyek (PM):</strong> Menginisiasi diskusi analisis kebutuhan dengan jajaran pejabat kelurahan, membagi tugas tim pengembang, hingga memimpin presentasi akhir dan serah terima sistem."
-                                      data-en="<strong>Stakeholder Initiation & Project Leadership (PM):</strong> Initiated requirement consultations with sub-district officials, coordinated team sprints, and led the final presentation and official handover.">
-                                    <strong>Inisiasi Klien & Kepemimpinan Proyek (PM):</strong> Menginisiasi diskusi analisis kebutuhan dengan jajaran pejabat kelurahan, membagi tugas tim pengembang, hingga memimpin presentasi akhir dan serah terima sistem.
+                                <span
+                                    data-id="<strong>Inisiasi Klien & Kepemimpinan Proyek (PM):</strong> Menginisiasi diskusi analisis kebutuhan dengan jajaran pejabat kelurahan, membagi tugas tim pengembang, hingga memimpin presentasi akhir dan serah terima sistem."
+                                    data-en="<strong>Stakeholder Initiation & Project Leadership (PM):</strong> Initiated requirement consultations with sub-district officials, coordinated team sprints, and led the final presentation and official handover.">
+                                    <strong>Inisiasi Klien & Kepemimpinan Proyek (PM):</strong> Menginisiasi diskusi
+                                    analisis kebutuhan dengan jajaran pejabat kelurahan, membagi tugas tim pengembang,
+                                    hingga memimpin presentasi akhir dan serah terima sistem.
                                 </span>
                             </li>
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
-                                <span data-id="<strong>Manajemen Jadwal, Import Excel & Sinkronisasi Otomatis:</strong> Mengembangkan modul CRUD jadwal kegiatan dengan fitur <em>Import Excel</em> (PHPSpreadsheet), validasi kuota otomatis (31 slot), serta sinkronisasi langsung ke draf kegiatan."
-                                      data-en="<strong>Schedule Management, Excel Import & Auto-Sync:</strong> Built schedule CRUD modules with automated <em>Excel Import</em> (PHPSpreadsheet), capacity quota validation (31 slots), and automatic draft synchronization.">
-                                    <strong>Manajemen Jadwal, Import Excel & Sinkronisasi Otomatis:</strong> Mengembangkan modul CRUD jadwal kegiatan dengan fitur <em>Import Excel</em> (PHPSpreadsheet), validasi kuota otomatis (31 slot), serta sinkronisasi langsung ke draf kegiatan.
+                                <span
+                                    data-id="<strong>Manajemen Jadwal, Import Excel & Sinkronisasi Otomatis:</strong> Mengembangkan modul CRUD jadwal kegiatan dengan fitur <em>Import Excel</em> (PHPSpreadsheet), validasi kuota otomatis (31 slot), serta sinkronisasi langsung ke draf kegiatan."
+                                    data-en="<strong>Schedule Management, Excel Import & Auto-Sync:</strong> Built schedule CRUD modules with automated <em>Excel Import</em> (PHPSpreadsheet), capacity quota validation (31 slots), and automatic draft synchronization.">
+                                    <strong>Manajemen Jadwal, Import Excel & Sinkronisasi Otomatis:</strong>
+                                    Mengembangkan modul CRUD jadwal kegiatan dengan fitur <em>Import Excel</em>
+                                    (PHPSpreadsheet), validasi kuota otomatis (31 slot), serta sinkronisasi langsung ke
+                                    draf kegiatan.
                                 </span>
                             </li>
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
-                                <span data-id="<strong>Integrasi Asisten AI (Gemini API) & Multi-Image Slider:</strong> Mengintegrasikan fitur generator deskripsi berita/kegiatan otomatis berbasis Google Gemini API di panel Admin, manajemen <em>Running Text</em>, serta galeri kegiatan responsif."
-                                      data-en="<strong>AI Assistant Integration (Gemini API) & Multi-Image Slider:</strong> Integrated an automated activity description generator powered by Google Gemini API inside the Admin Panel, live <em>Running Text</em> management, and responsive sliders.">
-                                    <strong>Integrasi Asisten AI (Gemini API) & Multi-Image Slider:</strong> Mengintegrasikan fitur generator deskripsi berita/kegiatan otomatis berbasis Google Gemini API di panel Admin, manajemen <em>Running Text</em>, serta galeri kegiatan responsif.
+                                <span
+                                    data-id="<strong>Integrasi Asisten AI (Gemini API) & Multi-Image Slider:</strong> Mengintegrasikan fitur generator deskripsi berita/kegiatan otomatis berbasis Google Gemini API di panel Admin, manajemen <em>Running Text</em>, serta galeri kegiatan responsif."
+                                    data-en="<strong>AI Assistant Integration (Gemini API) & Multi-Image Slider:</strong> Integrated an automated activity description generator powered by Google Gemini API inside the Admin Panel, live <em>Running Text</em> management, and responsive sliders.">
+                                    <strong>Integrasi Asisten AI (Gemini API) & Multi-Image Slider:</strong>
+                                    Mengintegrasikan fitur generator deskripsi berita/kegiatan otomatis berbasis Google
+                                    Gemini API di panel Admin, manajemen <em>Running Text</em>, serta galeri kegiatan
+                                    responsif.
                                 </span>
                             </li>
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400 shrink-0 mt-0.5"></i>
-                                <span data-id="<strong>Pengujian 21 Skenario Black-Box & Deployment:</strong> Menyusun dan mengeksekusi langsung 21 skenario uji fungsional (TC-01 s.d. TC-21) serta dokumen laporan <em>deployment</em> ke server produksi (<code>manggaraiselatan.wuaze.com</code>)."
-                                      data-en="<strong>21 Black-Box Test Scenarios & Production Deployment:</strong> Authored and executed 21 comprehensive functional test cases (TC-01 to TC-21) and production deployment documentation (<code>manggaraiselatan.wuaze.com</code>).">
-                                    <strong>Pengujian 21 Skenario Black-Box & Deployment:</strong> Menyusun dan mengeksekusi langsung 21 skenario uji fungsional (TC-01 s.d. TC-21) serta dokumen laporan <em>deployment</em> ke server produksi (<code>manggaraiselatan.wuaze.com</code>).
+                                <span
+                                    data-id="<strong>Pengujian 21 Skenario Black-Box & Deployment:</strong> Menyusun dan mengeksekusi langsung 21 skenario uji fungsional (TC-01 s.d. TC-21) serta dokumen laporan <em>deployment</em> ke server produksi (<code>manggaraiselatan.wuaze.com</code>)."
+                                    data-en="<strong>21 Black-Box Test Scenarios & Production Deployment:</strong> Authored and executed 21 comprehensive functional test cases (TC-01 to TC-21) and production deployment documentation (<code>manggaraiselatan.wuaze.com</code>).">
+                                    <strong>Pengujian 21 Skenario Black-Box & Deployment:</strong> Menyusun dan
+                                    mengeksekusi langsung 21 skenario uji fungsional (TC-01 s.d. TC-21) serta dokumen
+                                    laporan <em>deployment</em> ke server produksi
+                                    (<code>manggaraiselatan.wuaze.com</code>).
                                 </span>
                             </li>
                         </ul>
 
                         <!-- Tech Stack Pills & Live Link -->
-                        <div class="pt-3 flex flex-wrap items-center justify-between gap-4 border-t border-slate-800/80">
+                        <div
+                            class="pt-3 flex flex-wrap items-center justify-between gap-4 border-t border-slate-800/80">
                             <div class="flex flex-wrap gap-1.5">
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">PHP 8+ (PDO)</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">MySQL</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">JavaScript</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">PHPSpreadsheet</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-indigo-500/20 border border-indigo-500/40 text-indigo-300">Gemini AI API</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-emerald-500/20 border border-emerald-500/40 text-emerald-300">Project Management</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">PHP
+                                    8+ (PDO)</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">MySQL</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">JavaScript</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">PHPSpreadsheet</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-indigo-500/20 border border-indigo-500/40 text-indigo-300">Gemini
+                                    AI API</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-emerald-500/20 border border-emerald-500/40 text-emerald-300">Project
+                                    Management</span>
                             </div>
-                            <a href="https://manggaraiselatan.wuaze.com" target="_blank" rel="noopener" class="px-4 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/25 inline-flex items-center gap-1.5 transition-all">
-                                <span data-id="Buka Website Kelurahan" data-en="Visit Live Website">Buka Website Kelurahan</span>
+                            <a href="https://manggaraiselatan.wuaze.com" target="_blank" rel="noopener"
+                                class="px-4 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-500 text-white shadow-lg shadow-emerald-600/25 inline-flex items-center gap-1.5 transition-all">
+                                <span data-id="Buka Website Kelurahan" data-en="Visit Live Website">Buka Website
+                                    Kelurahan</span>
                                 <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
                             </a>
                         </div>
@@ -469,21 +613,32 @@
 
                     <!-- Right: Featured Main Documentation Preview (5 cols) -->
                     <div class="lg:col-span-5 space-y-3">
-                        <div onclick="openLightbox(0)" class="gallery-thumb rounded-2xl overflow-hidden border border-slate-700 shadow-xl aspect-[4/3] relative">
-                            <img src="assets/img/pkm/pkm-01-presentasi-kelurahan.jpg" alt="Presentasi Project Manager di Kelurahan Manggarai Selatan" class="w-full h-full object-cover">
-                            <div class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent p-4 flex flex-col justify-end">
-                                <span class="text-[11px] font-mono text-emerald-400">24 Oktober 2025 • Kelurahan Manggarai Selatan</span>
-                                <p class="text-xs font-bold text-white mt-0.5" data-id="Memimpin Presentasi Sistem di Hadapan Pejabat Kelurahan" data-en="Leading System Presentation Before Sub-District Officials">
+                        <div onclick="openLightbox(0)"
+                            class="gallery-thumb rounded-2xl overflow-hidden border border-slate-700 shadow-xl aspect-[4/3] relative">
+                            <img src="assets/img/pkm/pkm-01-presentasi-kelurahan.jpg"
+                                alt="Presentasi Project Manager di Kelurahan Manggarai Selatan"
+                                class="w-full h-full object-cover">
+                            <div
+                                class="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-transparent to-transparent p-4 flex flex-col justify-end">
+                                <span class="text-[11px] font-mono text-emerald-400">24 Oktober 2025 • Kelurahan
+                                    Manggarai Selatan</span>
+                                <p class="text-xs font-bold text-white mt-0.5"
+                                    data-id="Memimpin Presentasi Sistem di Hadapan Pejabat Kelurahan"
+                                    data-en="Leading System Presentation Before Sub-District Officials">
                                     Memimpin Presentasi Sistem di Hadapan Pejabat Kelurahan
                                 </p>
                             </div>
                         </div>
                         <div class="grid grid-cols-2 gap-3">
-                            <div onclick="openLightbox(4)" class="gallery-thumb rounded-xl overflow-hidden border border-slate-800 aspect-[4/3] relative">
-                                <img src="assets/img/pkm/pkm-05-serah-terima-berita-acara.jpg" alt="Serah Terima Berita Acara PKM" class="w-full h-full object-cover">
+                            <div onclick="openLightbox(4)"
+                                class="gallery-thumb rounded-xl overflow-hidden border border-slate-800 aspect-[4/3] relative">
+                                <img src="assets/img/pkm/pkm-05-serah-terima-berita-acara.jpg"
+                                    alt="Serah Terima Berita Acara PKM" class="w-full h-full object-cover">
                             </div>
-                            <div onclick="openLightbox(3)" class="gallery-thumb rounded-xl overflow-hidden border border-slate-800 aspect-[4/3] relative">
-                                <img src="assets/img/pkm/pkm-04-demo-aplikasi-kelurahan.jpg" alt="Demo Aplikasi Web Kelurahan" class="w-full h-full object-cover">
+                            <div onclick="openLightbox(3)"
+                                class="gallery-thumb rounded-xl overflow-hidden border border-slate-800 aspect-[4/3] relative">
+                                <img src="assets/img/pkm/pkm-04-demo-aplikasi-kelurahan.jpg"
+                                    alt="Demo Aplikasi Web Kelurahan" class="w-full h-full object-cover">
                             </div>
                         </div>
                     </div>
@@ -495,15 +650,19 @@
                         <div>
                             <h4 class="text-sm font-bold text-white flex items-center gap-2">
                                 <i data-lucide="camera" class="w-4 h-4 text-emerald-400"></i>
-                                <span data-id="Galeri Dokumentasi Lengkap PKM – Mata Kuliah PPPL (9 Foto Kegiatan)" data-en="Complete PKM – PPPL Course Field Documentation Gallery (9 Photos)">
+                                <span data-id="Galeri Dokumentasi Lengkap PKM – Mata Kuliah PPPL (9 Foto Kegiatan)"
+                                    data-en="Complete PKM – PPPL Course Field Documentation Gallery (9 Photos)">
                                     Galeri Dokumentasi Lengkap PKM – Mata Kuliah PPPL (9 Foto Kegiatan)
                                 </span>
                             </h4>
-                            <p class="text-xs text-slate-400" data-id="Klik pada foto mana saja untuk melihat ukuran penuh beserta keterangan kegiatan." data-en="Click on any photo to view full screen with detailed activity captions.">
+                            <p class="text-xs text-slate-400"
+                                data-id="Klik pada foto mana saja untuk melihat ukuran penuh beserta keterangan kegiatan."
+                                data-en="Click on any photo to view full screen with detailed activity captions.">
                                 Klik pada foto mana saja untuk melihat ukuran penuh beserta keterangan kegiatan.
                             </p>
                         </div>
-                        <span class="text-[11px] font-mono text-indigo-300 bg-indigo-500/10 border border-indigo-500/20 px-3 py-1 rounded-full self-start sm:self-auto">
+                        <span
+                            class="text-[11px] font-mono text-indigo-300 bg-indigo-500/10 border border-indigo-500/20 px-3 py-1 rounded-full self-start sm:self-auto">
                             manggaraiselatan.wuaze.com • Kelurahan Manggarai Selatan
                         </span>
                     </div>
@@ -518,44 +677,56 @@
                  =============================================================== -->
             <div class="bento-card p-6 sm:p-8 border border-emerald-500/30">
                 <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                    
+
                     <!-- Left: Interactive Architecture Mockup Preview (5 cols) -->
                     <div class="lg:col-span-5">
-                        <div class="rounded-2xl overflow-hidden border border-slate-800 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 p-6 space-y-4 shadow-2xl">
+                        <div
+                            class="rounded-2xl overflow-hidden border border-slate-800 bg-gradient-to-br from-indigo-950 via-slate-900 to-slate-950 p-6 space-y-4 shadow-2xl">
                             <div class="flex items-center justify-between text-xs font-mono text-indigo-300">
                                 <span class="flex items-center gap-2 font-bold text-white">
                                     <i data-lucide="bus" class="w-4 h-4 text-emerald-400"></i> busonline.me
                                 </span>
-                                <span class="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[10px] font-semibold">
+                                <span
+                                    class="px-2.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 text-[10px] font-semibold">
                                     AKAP & AKDP • Pulau Jawa
                                 </span>
                             </div>
 
                             <div class="space-y-3 bg-slate-950/90 border border-slate-800 rounded-xl p-4">
                                 <div class="flex items-center justify-between text-xs">
-                                    <span class="text-slate-400" data-id="Cakupan Rute" data-en="Route Coverage">Cakupan Rute</span>
+                                    <span class="text-slate-400" data-id="Cakupan Rute" data-en="Route Coverage">Cakupan
+                                        Rute</span>
                                     <span class="text-white font-bold">Seluruh Operator Bus Pulau Jawa</span>
                                 </div>
-                                <div class="text-[11px] text-slate-400 flex items-center justify-between pt-2 border-t border-slate-800/80">
+                                <div
+                                    class="text-[11px] text-slate-400 flex items-center justify-between pt-2 border-t border-slate-800/80">
                                     <span>Jakarta • Bandung • Semarang</span>
                                     <span class="text-emerald-400 font-mono">⇄</span>
                                     <span>Solo • Yogyakarta • Surabaya • Malang</span>
                                 </div>
                                 <div class="grid grid-cols-3 gap-2 pt-3 border-t border-slate-800/80 text-[11px]">
-                                    <div class="bg-slate-900 p-2.5 rounded-lg text-center text-slate-200 font-medium">Multi-Operator</div>
-                                    <div class="bg-slate-900 p-2.5 rounded-lg text-center text-emerald-400 font-semibold">Interactive Seat</div>
-                                    <div class="bg-slate-900 p-2.5 rounded-lg text-center text-indigo-300 font-medium">Admin Panel</div>
+                                    <div class="bg-slate-900 p-2.5 rounded-lg text-center text-slate-200 font-medium">
+                                        Multi-Operator</div>
+                                    <div
+                                        class="bg-slate-900 p-2.5 rounded-lg text-center text-emerald-400 font-semibold">
+                                        Interactive Seat</div>
+                                    <div class="bg-slate-900 p-2.5 rounded-lg text-center text-indigo-300 font-medium">
+                                        Admin Panel</div>
                                 </div>
                             </div>
 
                             <div class="grid grid-cols-2 gap-3 text-center text-xs">
                                 <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
-                                    <span class="text-slate-400 block text-[10px]" data-id="Tahap 1 (2024–2025)" data-en="Phase 1 (2024–2025)">Tahap 1 (2024–2025)</span>
-                                    <span class="font-bold text-white" data-id="Penelitian Ilmiah (PI)" data-en="Scientific Research">Penelitian Ilmiah (PI)</span>
+                                    <span class="text-slate-400 block text-[10px]" data-id="Tahap 1 (2024–2025)"
+                                        data-en="Phase 1 (2024–2025)">Tahap 1 (2024–2025)</span>
+                                    <span class="font-bold text-white" data-id="Penelitian Ilmiah (PI)"
+                                        data-en="Scientific Research">Penelitian Ilmiah (PI)</span>
                                 </div>
                                 <div class="p-3 rounded-xl bg-slate-900/90 border border-slate-800">
-                                    <span class="text-slate-400 block text-[10px]" data-id="Tahap 2 (2025–2026)" data-en="Phase 2 (2025–2026)">Tahap 2 (2025–2026)</span>
-                                    <span class="font-bold text-emerald-400" data-id="Pengembangan Skripsi" data-en="Undergraduate Thesis">Pengembangan Skripsi</span>
+                                    <span class="text-slate-400 block text-[10px]" data-id="Tahap 2 (2025–2026)"
+                                        data-en="Phase 2 (2025–2026)">Tahap 2 (2025–2026)</span>
+                                    <span class="font-bold text-emerald-400" data-id="Pengembangan Skripsi"
+                                        data-en="Undergraduate Thesis">Pengembangan Skripsi</span>
                                 </div>
                             </div>
                         </div>
@@ -564,10 +735,12 @@
                     <!-- Right: BusOnline Case Study Details (7 cols) -->
                     <div class="lg:col-span-7 space-y-4">
                         <div class="flex flex-wrap items-center gap-2">
-                            <span class="px-3 py-1 rounded-full text-[11px] font-bold bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">
+                            <span
+                                class="px-3 py-1 rounded-full text-[11px] font-bold bg-indigo-500/15 text-indigo-300 border border-indigo-500/30">
                                 Intercity Mobility & Ticketing Aggregator
                             </span>
-                            <a href="https://busonline.me" target="_blank" rel="noopener" class="px-3 py-1 rounded-full text-[11px] font-mono bg-slate-900 hover:bg-slate-800 text-emerald-300 border border-emerald-500/30 inline-flex items-center gap-1 transition-colors">
+                            <a href="https://busonline.me" target="_blank" rel="noopener"
+                                class="px-3 py-1 rounded-full text-[11px] font-mono bg-slate-900 hover:bg-slate-800 text-emerald-300 border border-emerald-500/30 inline-flex items-center gap-1 transition-colors">
                                 <i data-lucide="globe" class="w-3 h-3"></i> busonline.me
                             </a>
                             <span class="text-xs font-mono text-slate-400">2024 – 2026</span>
@@ -580,52 +753,76 @@
                         </h3>
 
                         <p class="text-xs sm:text-sm font-semibold text-emerald-400"
-                           data-id="Peran: Full Stack Web Developer | Penelitian Ilmiah (2024–2025) & Pengembangan Lanjutan Skripsi (2025–2026)"
-                           data-en="Role: Full Stack Web Developer | Scientific Research (2024–2025) & Undergraduate Thesis Expansion (2025–2026)">
-                            Peran: Full Stack Web Developer | Penelitian Ilmiah (2024–2025) & Pengembangan Lanjutan Skripsi (2025–2026)
+                            data-id="Peran: Full Stack Web Developer | Penelitian Ilmiah (2024–2025) & Pengembangan Lanjutan Skripsi (2025–2026)"
+                            data-en="Role: Full Stack Web Developer | Scientific Research (2024–2025) & Undergraduate Thesis Expansion (2025–2026)">
+                            Peran: Full Stack Web Developer | Penelitian Ilmiah (2024–2025) & Pengembangan Lanjutan
+                            Skripsi (2025–2026)
                         </p>
 
                         <p class="text-xs sm:text-sm text-slate-300 leading-relaxed text-justify"
-                           data-id="Platform web agregator pemesanan tiket bus antarkota (serupa konsep RedBus) yang mengakomodasi seluruh operator penyedia layanan bus dengan parameter khusus wilayah Pulau Jawa serta layanan rute AKAP (Antarkota Antarprovinsi) dan AKDP (Antarkota Dalam Provinsi)."
-                           data-en="A comprehensive intercity bus ticket aggregator web platform (similar in concept to RedBus) accommodating all bus operators specifically parameterized for Java Island across AKAP (Inter-Province) and AKDP (Intra-Province) routes.">
-                            Platform web agregator pemesanan tiket bus antarkota (serupa konsep RedBus) yang mengakomodasi seluruh operator penyedia layanan bus dengan parameter khusus wilayah Pulau Jawa serta layanan rute AKAP (Antarkota Antarprovinsi) dan AKDP (Antarkota Dalam Provinsi).
+                            data-id="Platform web agregator pemesanan tiket bus antarkota (serupa konsep RedBus) yang mengakomodasi seluruh operator penyedia layanan bus dengan parameter khusus wilayah Pulau Jawa serta layanan rute AKAP (Antarkota Antarprovinsi) dan AKDP (Antarkota Dalam Provinsi)."
+                            data-en="A comprehensive intercity bus ticket aggregator web platform (similar in concept to RedBus) accommodating all bus operators specifically parameterized for Java Island across AKAP (Inter-Province) and AKDP (Intra-Province) routes.">
+                            Platform web agregator pemesanan tiket bus antarkota (serupa konsep RedBus) yang
+                            mengakomodasi seluruh operator penyedia layanan bus dengan parameter khusus wilayah Pulau
+                            Jawa serta layanan rute AKAP (Antarkota Antarprovinsi) dan AKDP (Antarkota Dalam Provinsi).
                         </p>
 
                         <ul class="space-y-2 text-xs sm:text-sm text-slate-300">
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-indigo-400 shrink-0 mt-0.5"></i>
-                                <span data-id="<strong>Arsitektur Agregator Multi-Operator (AKAP & AKDP):</strong> Merancang skema database relasional MySQL untuk mengelola banyak operator bus, rute keberangkatan/tujuan se-Pulau Jawa, jadwal perjalanan, dan tarif."
-                                      data-en="<strong>Multi-Operator Aggregator Architecture (AKAP & AKDP):</strong> Architected a relational MySQL database managing multiple bus operators, Java-wide origin/destination routes, schedules, and pricing.">
-                                    <strong>Arsitektur Agregator Multi-Operator (AKAP & AKDP):</strong> Merancang skema database relasional MySQL untuk mengelola banyak operator bus, rute keberangkatan/tujuan se-Pulau Jawa, jadwal perjalanan, dan tarif.
+                                <span
+                                    data-id="<strong>Arsitektur Agregator Multi-Operator (AKAP & AKDP):</strong> Merancang skema database relasional MySQL untuk mengelola banyak operator bus, rute keberangkatan/tujuan se-Pulau Jawa, jadwal perjalanan, dan tarif."
+                                    data-en="<strong>Multi-Operator Aggregator Architecture (AKAP & AKDP):</strong> Architected a relational MySQL database managing multiple bus operators, Java-wide origin/destination routes, schedules, and pricing.">
+                                    <strong>Arsitektur Agregator Multi-Operator (AKAP & AKDP):</strong> Merancang skema
+                                    database relasional MySQL untuk mengelola banyak operator bus, rute
+                                    keberangkatan/tujuan se-Pulau Jawa, jadwal perjalanan, dan tarif.
                                 </span>
                             </li>
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-indigo-400 shrink-0 mt-0.5"></i>
-                                <span data-id="<strong>Pencarian Rute Dinamis & Pemilihan Kursi Interaktif:</strong> Membangun pengalaman pemesanan tiket pelanggan secara end-to-end mulai dari filter rute, denah pemilihan kursi interaktif, hingga penerbitan bukti booking tiket digital."
-                                      data-en="<strong>Dynamic Route Search & Interactive Seat Selection:</strong> Built an end-to-end passenger booking workflow featuring route filtering, interactive seat map selection, and digital ticket issuance.">
-                                    <strong>Pencarian Rute Dinamis & Pemilihan Kursi Interaktif:</strong> Membangun pengalaman pemesanan tiket pelanggan secara end-to-end mulai dari filter rute, denah pemilihan kursi interaktif, hingga penerbitan bukti booking tiket digital.
+                                <span
+                                    data-id="<strong>Pencarian Rute Dinamis & Pemilihan Kursi Interaktif:</strong> Membangun pengalaman pemesanan tiket pelanggan secara end-to-end mulai dari filter rute, denah pemilihan kursi interaktif, hingga penerbitan bukti booking tiket digital."
+                                    data-en="<strong>Dynamic Route Search & Interactive Seat Selection:</strong> Built an end-to-end passenger booking workflow featuring route filtering, interactive seat map selection, and digital ticket issuance.">
+                                    <strong>Pencarian Rute Dinamis & Pemilihan Kursi Interaktif:</strong> Membangun
+                                    pengalaman pemesanan tiket pelanggan secara end-to-end mulai dari filter rute, denah
+                                    pemilihan kursi interaktif, hingga penerbitan bukti booking tiket digital.
                                 </span>
                             </li>
                             <li class="flex items-start gap-2.5">
                                 <i data-lucide="check-circle-2" class="w-4 h-4 text-indigo-400 shrink-0 mt-0.5"></i>
-                                <span data-id="<strong>Dashboard Admin Terpusat & Pengembangan Skripsi:</strong> Mengembangkan panel kontrol admin untuk manajemen armada, verifikasi transaksi, dan laporan pemesanan, dengan penyelesaian tahap lanjutan Skripsi secara intensif dalam 1 bulan."
-                                      data-en="<strong>Centralized Admin Dashboard & Thesis Expansion:</strong> Engineered a full admin control panel for fleet management, transaction verification, and booking reports, completing the advanced Thesis phase intensively within 1 month.">
-                                    <strong>Dashboard Admin Terpusat & Pengembangan Skripsi:</strong> Mengembangkan panel kontrol admin untuk manajemen armada, verifikasi transaksi, dan laporan pemesanan, dengan penyelesaian tahap lanjutan Skripsi secara intensif dalam 1 bulan.
+                                <span
+                                    data-id="<strong>Dashboard Admin Terpusat & Pengembangan Skripsi:</strong> Mengembangkan panel kontrol admin untuk manajemen armada, verifikasi transaksi, dan laporan pemesanan, dengan penyelesaian tahap lanjutan Skripsi secara intensif dalam 1 bulan."
+                                    data-en="<strong>Centralized Admin Dashboard & Thesis Expansion:</strong> Engineered a full admin control panel for fleet management, transaction verification, and booking reports, completing the advanced Thesis phase intensively within 1 month.">
+                                    <strong>Dashboard Admin Terpusat & Pengembangan Skripsi:</strong> Mengembangkan
+                                    panel kontrol admin untuk manajemen armada, verifikasi transaksi, dan laporan
+                                    pemesanan, dengan penyelesaian tahap lanjutan Skripsi secara intensif dalam 1 bulan.
                                 </span>
                             </li>
                         </ul>
 
-                        <div class="pt-3 flex flex-wrap items-center justify-between gap-4 border-t border-slate-800/80">
+                        <div
+                            class="pt-3 flex flex-wrap items-center justify-between gap-4 border-t border-slate-800/80">
                             <div class="flex flex-wrap gap-1.5">
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">PHP</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Laravel</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">MySQL</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">JavaScript (ES6+)</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">HTML5 & CSS3</span>
-                                <span class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Bootstrap / Tailwind</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">PHP</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Laravel</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">MySQL</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">JavaScript
+                                    (ES6+)</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">HTML5
+                                    & CSS3</span>
+                                <span
+                                    class="px-2.5 py-1 rounded-lg text-xs font-mono bg-slate-900 border border-slate-700 text-slate-200">Bootstrap
+                                    / Tailwind</span>
                             </div>
-                            <a href="https://busonline.me" target="_blank" rel="noopener" class="px-4 py-2 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/25 inline-flex items-center gap-1.5 transition-all">
-                                <span data-id="Buka Website BusOnline" data-en="Visit BusOnline.me">Buka Website BusOnline</span>
+                            <a href="https://busonline.me" target="_blank" rel="noopener"
+                                class="px-4 py-2 rounded-xl text-xs font-bold bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-600/25 inline-flex items-center gap-1.5 transition-all">
+                                <span data-id="Buka Website BusOnline" data-en="Visit BusOnline.me">Buka Website
+                                    BusOnline</span>
                                 <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
                             </a>
                         </div>
@@ -644,18 +841,31 @@
         <div class="max-w-6xl mx-auto space-y-8">
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
-                    <span class="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-widest" data-id="03 // KEAHLIAN TEKNIS & TOOLS" data-en="03 // TECHNICAL ARSENAL & TOOLS">03 // KEAHLIAN TEKNIS & TOOLS</span>
-                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1" data-id="Ekosistem Teknologi yang Saya Kuasai" data-en="Technologies & Tools I Work With">Ekosistem Teknologi yang Saya Kuasai</h2>
+                    <span class="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-widest"
+                        data-id="03 // KEAHLIAN TEKNIS & TOOLS" data-en="03 // TECHNICAL ARSENAL & TOOLS">03 // KEAHLIAN
+                        TEKNIS & TOOLS</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1"
+                        data-id="Ekosistem Teknologi yang Saya Kuasai" data-en="Technologies & Tools I Work With">
+                        Ekosistem Teknologi yang Saya Kuasai</h2>
                 </div>
 
                 <!-- Category Filter Buttons -->
                 <div class="flex flex-wrap gap-2">
-                    <button onclick="filterSkills('all', this)" class="skill-filter-btn filter-btn active px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all" data-id="Semua (21)" data-en="All (21)">Semua (21)</button>
-                    <button onclick="filterSkills('backend', this)" class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all">Backend</button>
-                    <button onclick="filterSkills('frontend', this)" class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all">Frontend</button>
-                    <button onclick="filterSkills('database', this)" class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all">Database</button>
-                    <button onclick="filterSkills('analysis', this)" class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all" data-id="Analisis & Jaringan" data-en="Analysis & Network">Analisis & Jaringan</button>
-                    <button onclick="filterSkills('tools', this)" class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all">Tools & UI</button>
+                    <button onclick="filterSkills('all', this)"
+                        class="skill-filter-btn filter-btn active px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all"
+                        data-id="Semua (21)" data-en="All (21)">Semua (21)</button>
+                    <button onclick="filterSkills('backend', this)"
+                        class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all">Backend</button>
+                    <button onclick="filterSkills('frontend', this)"
+                        class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all">Frontend</button>
+                    <button onclick="filterSkills('database', this)"
+                        class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all">Database</button>
+                    <button onclick="filterSkills('analysis', this)"
+                        class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all"
+                        data-id="Analisis & Jaringan" data-en="Analysis & Network">Analisis & Jaringan</button>
+                    <button onclick="filterSkills('tools', this)"
+                        class="skill-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all">Tools
+                        & UI</button>
                 </div>
             </div>
 
@@ -669,36 +879,55 @@
          ======================================================================= -->
     <section id="certifications" class="relative z-10 py-20 px-4 bg-slate-950/60 border-y border-slate-900">
         <div class="max-w-6xl mx-auto space-y-12">
-            
+
             <!-- Section Header -->
             <div class="flex flex-col md:flex-row md:items-end justify-between gap-4">
                 <div>
-                    <span class="text-xs font-mono font-semibold text-emerald-400 uppercase tracking-widest" data-id="04 // BUKTI KOMPETENSI & SERTIFIKAT RESMI" data-en="04 // VERIFIED CREDENTIALS & CERTIFICATES">04 // BUKTI KOMPETENSI & SERTIFIKAT RESMI</span>
-                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1" data-id="Sertifikasi Profesi LSP & 10 Sertifikat Pelatihan Teknis" data-en="LSP Professional Certification & 10 Technical Training Certificates">Sertifikasi Profesi LSP & 10 Sertifikat Pelatihan Teknis</h2>
+                    <span class="text-xs font-mono font-semibold text-emerald-400 uppercase tracking-widest"
+                        data-id="04 // BUKTI KOMPETENSI & SERTIFIKAT RESMI"
+                        data-en="04 // VERIFIED CREDENTIALS & CERTIFICATES">04 // BUKTI KOMPETENSI & SERTIFIKAT
+                        RESMI</span>
+                    <h2 class="text-2xl sm:text-3xl font-extrabold text-white mt-1"
+                        data-id="Sertifikasi Profesi LSP & 10 Sertifikat Pelatihan Teknis"
+                        data-en="LSP Professional Certification & 10 Technical Training Certificates">Sertifikasi
+                        Profesi LSP & 10 Sertifikat Pelatihan Teknis</h2>
                 </div>
-                <p class="text-xs sm:text-sm text-slate-400 max-w-md" data-id="Seluruh sertifikat di bawah ini dilengkapi dokumen PDF asli yang telah ditandatangani secara elektronik oleh Universitas Gunadarma." data-en="Every certificate listed below is backed by an official digitally signed PDF document from Universitas Gunadarma.">
-                    Seluruh sertifikat di bawah ini dilengkapi dokumen PDF asli yang telah ditandatangani secara elektronik oleh Universitas Gunadarma.
+                <p class="text-xs sm:text-sm text-slate-400 max-w-md"
+                    data-id="Seluruh sertifikat di bawah ini dilengkapi dokumen PDF asli yang telah ditandatangani secara elektronik oleh Universitas Gunadarma."
+                    data-en="Every certificate listed below is backed by an official digitally signed PDF document from Universitas Gunadarma.">
+                    Seluruh sertifikat di bawah ini dilengkapi dokumen PDF asli yang telah ditandatangani secara
+                    elektronik oleh Universitas Gunadarma.
                 </p>
             </div>
 
             <!-- Highlight 1: BNSP / LSP Junior Web Programmer (8 Competency Units) -->
             <div class="bento-card p-6 sm:p-8 border border-emerald-500/35">
-                <div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-6 border-b border-slate-800">
+                <div
+                    class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 pb-6 border-b border-slate-800">
                     <div class="space-y-2">
-                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                        <div
+                            class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-bold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
                             <i data-lucide="award" class="w-4 h-4"></i>
-                            <span data-id="Sertifikasi Kompetensi Profesi Nasional (LSP / BNSP)" data-en="National Professional Competency Certification (LSP / BNSP)">Sertifikasi Kompetensi Profesi Nasional (LSP / BNSP)</span>
+                            <span data-id="Sertifikasi Kompetensi Profesi Nasional (LSP / BNSP)"
+                                data-en="National Professional Competency Certification (LSP / BNSP)">Sertifikasi
+                                Kompetensi Profesi Nasional (LSP / BNSP)</span>
                         </div>
                         <h3 class="text-xl sm:text-2xl font-extrabold text-white">
-                            Junior Web Programmer — <span class="text-emerald-400" data-id="Status: KOMPETEN" data-en="Status: COMPETENT">Status: KOMPETEN</span>
+                            Junior Web Programmer — <span class="text-emerald-400" data-id="Status: KOMPETEN"
+                                data-en="Status: COMPETENT">Status: KOMPETEN</span>
                         </h3>
-                        <p class="text-xs sm:text-sm text-slate-300" data-id="Lembaga Sertifikasi Profesi (LSP) Universitas Gunadarma • Tanggal Ujian: 10 Juni 2026 • NPM: 51422474 (Kelas 4IA23)" data-en="Professional Certification Institute (LSP) Universitas Gunadarma • Exam Date: June 10, 2026 • ID: 51422474">
-                            Lembaga Sertifikasi Profesi (LSP) Universitas Gunadarma • Tanggal Ujian: 10 Juni 2026 • NPM: 51422474 (Kelas 4IA23)
+                        <p class="text-xs sm:text-sm text-slate-300"
+                            data-id="Lembaga Sertifikasi Profesi (LSP) Universitas Gunadarma • Tanggal Ujian: 10 Juni 2026 • NPM: 51422474 (Kelas 4IA23)"
+                            data-en="Professional Certification Institute (LSP) Universitas Gunadarma • Exam Date: June 10, 2026 • ID: 51422474">
+                            Lembaga Sertifikasi Profesi (LSP) Universitas Gunadarma • Tanggal Ujian: 10 Juni 2026 • NPM:
+                            51422474 (Kelas 4IA23)
                         </p>
                     </div>
-                    <a href="assets/img/lsp-sertifikasi.png" target="_blank" class="px-4 py-2.5 rounded-xl text-xs font-bold bg-slate-900 hover:bg-slate-800 text-emerald-400 border border-emerald-500/30 inline-flex items-center gap-2 self-start lg:self-center shrink-0 transition-all">
+                    <a href="assets/img/lsp-sertifikasi.png" target="_blank"
+                        class="px-4 py-2.5 rounded-xl text-xs font-bold bg-slate-900 hover:bg-slate-800 text-emerald-400 border border-emerald-500/30 inline-flex items-center gap-2 self-start lg:self-center shrink-0 transition-all">
                         <i data-lucide="image" class="w-4 h-4"></i>
-                        <span data-id="Lihat Bukti Portal LSP" data-en="View Official LSP Record">Lihat Bukti Portal LSP</span>
+                        <span data-id="Lihat Bukti Portal LSP" data-en="View Official LSP Record">Lihat Bukti Portal
+                            LSP</span>
                     </a>
                 </div>
 
@@ -709,9 +938,12 @@
                             <tr class="border-b border-slate-800 text-[11px] font-mono uppercase text-slate-400">
                                 <th class="py-2 px-3">#</th>
                                 <th class="py-2 px-3" data-id="Kode Unit SKKNI" data-en="Unit Code">Kode Unit SKKNI</th>
-                                <th class="py-2 px-3" data-id="Nama Unit Kompetensi" data-en="Competency Unit Title">Nama Unit Kompetensi</th>
-                                <th class="py-2 px-3 hidden sm:table-cell" data-id="Tanggal Ujian" data-en="Exam Date">Tanggal Ujian</th>
-                                <th class="py-2 px-3 text-right" data-id="Hasil Asesmen" data-en="Assessment Result">Hasil Asesmen</th>
+                                <th class="py-2 px-3" data-id="Nama Unit Kompetensi" data-en="Competency Unit Title">
+                                    Nama Unit Kompetensi</th>
+                                <th class="py-2 px-3 hidden sm:table-cell" data-id="Tanggal Ujian" data-en="Exam Date">
+                                    Tanggal Ujian</th>
+                                <th class="py-2 px-3 text-right" data-id="Hasil Asesmen" data-en="Assessment Result">
+                                    Hasil Asesmen</th>
                             </tr>
                         </thead>
                         <tbody id="lsp-units-tbody"></tbody>
@@ -722,14 +954,26 @@
             <!-- Highlight 2: 10 Official Certificates with Category Filter & Direct PDF Links -->
             <div class="space-y-6">
                 <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-                    <h3 class="text-lg font-bold text-white" data-id="Katalog 10 Sertifikat Pelatihan, Workshop & Evaluasi Akademik" data-en="10 Official Training, Workshop & Academic Assessment Certificates">
+                    <h3 class="text-lg font-bold text-white"
+                        data-id="Katalog 10 Sertifikat Pelatihan, Workshop & Evaluasi Akademik"
+                        data-en="10 Official Training, Workshop & Academic Assessment Certificates">
                         Katalog 10 Sertifikat Pelatihan, Workshop & Evaluasi Akademik
                     </h3>
                     <div class="flex flex-wrap gap-2">
-                        <button onclick="filterCerts('all', this)" class="cert-filter-btn filter-btn active px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all" data-id="Semua (10 PDF)" data-en="All (10 PDFs)">Semua (10 PDF)</button>
-                        <button onclick="filterCerts('web', this)" class="cert-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all" data-id="Web & Golang (5)" data-en="Web & Golang (5)">Web & Golang (5)</button>
-                        <button onclick="filterCerts('db', this)" class="cert-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all" data-id="Database Oracle & DBMS (3)" data-en="Oracle & DBMS (3)">Database Oracle & DBMS (3)</button>
-                        <button onclick="filterCerts('net', this)" class="cert-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all" data-id="Jaringan LAN & Aptitude (2)" data-en="Wireless LAN & Aptitude (2)">Jaringan LAN & Aptitude (2)</button>
+                        <button onclick="filterCerts('all', this)"
+                            class="cert-filter-btn filter-btn active px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all"
+                            data-id="Semua (10 PDF)" data-en="All (10 PDFs)">Semua (10 PDF)</button>
+                        <button onclick="filterCerts('web', this)"
+                            class="cert-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all"
+                            data-id="Web & Golang (5)" data-en="Web & Golang (5)">Web & Golang (5)</button>
+                        <button onclick="filterCerts('db', this)"
+                            class="cert-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all"
+                            data-id="Database Oracle & DBMS (3)" data-en="Oracle & DBMS (3)">Database Oracle & DBMS
+                            (3)</button>
+                        <button onclick="filterCerts('net', this)"
+                            class="cert-filter-btn filter-btn px-3.5 py-1.5 rounded-full text-xs font-semibold border border-slate-800 bg-slate-900 text-slate-300 transition-all"
+                            data-id="Jaringan LAN & Aptitude (2)" data-en="Wireless LAN & Aptitude (2)">Jaringan LAN &
+                            Aptitude (2)</button>
                     </div>
                 </div>
 
@@ -746,72 +990,104 @@
     <section id="journey" class="relative z-10 py-20 px-4">
         <div class="max-w-4xl mx-auto space-y-10">
             <div class="text-center space-y-2">
-                <span class="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-widest" data-id="05 // PERJALANAN AKADEMIK & PROYEK" data-en="05 // ACADEMIC & PROJECT TIMELINE">05 // PERJALANAN AKADEMIK & PROYEK</span>
-                <h2 class="text-2xl sm:text-3xl font-extrabold text-white" data-id="Rekam Jejak & Perkembangan Kompetensi" data-en="My Engineering Journey">Rekam Jejak & Perkembangan Kompetensi</h2>
+                <span class="text-xs font-mono font-semibold text-indigo-400 uppercase tracking-widest"
+                    data-id="05 // PERJALANAN AKADEMIK & PROYEK" data-en="05 // ACADEMIC & PROJECT TIMELINE">05 //
+                    PERJALANAN AKADEMIK & PROYEK</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-white"
+                    data-id="Rekam Jejak & Perkembangan Kompetensi" data-en="My Engineering Journey">Rekam Jejak &
+                    Perkembangan Kompetensi</h2>
             </div>
 
-            <div class="space-y-6 relative before:absolute before:inset-y-0 before:left-4 sm:before:left-1/2 before:-translate-x-px before:w-0.5 before:bg-slate-800">
-                
+            <div
+                class="space-y-6 relative before:absolute before:inset-y-0 before:left-4 sm:before:left-1/2 before:-translate-x-px before:w-0.5 before:bg-slate-800">
+
                 <!-- Milestone 1 -->
                 <div class="relative flex items-center justify-between sm:justify-normal sm:odd:flex-row-reverse group">
-                    <div class="flex items-center justify-center w-8 h-8 rounded-full border-2 border-emerald-400 bg-slate-950 text-emerald-400 shrink-0 sm:order-1 sm:group-odd:-translate-x-1/2 sm:group-even:translate-x-1/2 z-10">
+                    <div
+                        class="flex items-center justify-center w-8 h-8 rounded-full border-2 border-emerald-400 bg-slate-950 text-emerald-400 shrink-0 sm:order-1 sm:group-odd:-translate-x-1/2 sm:group-even:translate-x-1/2 z-10">
                         <i data-lucide="award" class="w-4 h-4"></i>
                     </div>
                     <div class="w-[calc(100%-3rem)] sm:w-[calc(50%-2rem)] bento-card p-5">
                         <span class="text-xs font-mono text-emerald-400 font-bold">Juni – Juli 2026</span>
-                        <h4 class="text-base font-bold text-white mt-1" data-id="Kelulusan S1 Informatika (IPK 3.68) & Sertifikasi LSP Junior Web Programmer" data-en="B.Sc. in Informatics Graduation (GPA 3.68) & LSP Certification">
+                        <h4 class="text-base font-bold text-white mt-1"
+                            data-id="Kelulusan S1 Informatika (IPK 3.68) & Sertifikasi LSP Junior Web Programmer"
+                            data-en="B.Sc. in Informatics Graduation (GPA 3.68) & LSP Certification">
                             Kelulusan S1 Informatika (IPK 3.68) & Sertifikasi LSP Junior Web Programmer
                         </h4>
-                        <p class="text-xs text-slate-400 mt-1.5 leading-relaxed" data-id="Menyelesaikan studi S1 Informatika di Universitas Gunadarma, lulus 8 unit kompetensi nasional Junior Web Programmer LSP, Pelatihan Dasar Pembuatan Aplikasi Web, serta Aptitude Test." data-en="Completed Bachelor of Informatics at Universitas Gunadarma, passed all 8 national competency units for Junior Web Programmer, Basic Web App Development training, and University Aptitude Test.">
-                            Menyelesaikan studi S1 Informatika di Universitas Gunadarma, lulus 8 unit kompetensi nasional Junior Web Programmer LSP, Pelatihan Dasar Pembuatan Aplikasi Web, serta Aptitude Test.
+                        <p class="text-xs text-slate-400 mt-1.5 leading-relaxed"
+                            data-id="Menyelesaikan studi S1 Informatika di Universitas Gunadarma, lulus 8 unit kompetensi nasional Junior Web Programmer LSP, Pelatihan Dasar Pembuatan Aplikasi Web, serta Aptitude Test."
+                            data-en="Completed Bachelor of Informatics at Universitas Gunadarma, passed all 8 national competency units for Junior Web Programmer, Basic Web App Development training, and University Aptitude Test.">
+                            Menyelesaikan studi S1 Informatika di Universitas Gunadarma, lulus 8 unit kompetensi
+                            nasional Junior Web Programmer LSP, Pelatihan Dasar Pembuatan Aplikasi Web, serta Aptitude
+                            Test.
                         </p>
                     </div>
                 </div>
 
                 <!-- Milestone 2 -->
                 <div class="relative flex items-center justify-between sm:justify-normal sm:odd:flex-row-reverse group">
-                    <div class="flex items-center justify-center w-8 h-8 rounded-full border-2 border-indigo-400 bg-slate-950 text-indigo-400 shrink-0 sm:order-1 sm:group-odd:-translate-x-1/2 sm:group-even:translate-x-1/2 z-10">
+                    <div
+                        class="flex items-center justify-center w-8 h-8 rounded-full border-2 border-indigo-400 bg-slate-950 text-indigo-400 shrink-0 sm:order-1 sm:group-odd:-translate-x-1/2 sm:group-even:translate-x-1/2 z-10">
                         <i data-lucide="users" class="w-4 h-4"></i>
                     </div>
                     <div class="w-[calc(100%-3rem)] sm:w-[calc(50%-2rem)] bento-card p-5">
                         <span class="text-xs font-mono text-indigo-400 font-bold">Oktober – Desember 2025</span>
-                        <h4 class="text-base font-bold text-white mt-1" data-id="Project Manager & Full Stack Developer @ Kelurahan Manggarai Selatan" data-en="Project Manager & Full Stack Developer @ Manggarai Selatan Sub-District">
+                        <h4 class="text-base font-bold text-white mt-1"
+                            data-id="Project Manager & Full Stack Developer @ Kelurahan Manggarai Selatan"
+                            data-en="Project Manager & Full Stack Developer @ Manggarai Selatan Sub-District">
                             Project Manager & Full Stack Developer @ Kelurahan Manggarai Selatan
                         </h4>
-                        <p class="text-xs text-slate-400 mt-1.5 leading-relaxed" data-id="Memimpin tim proyek Pengabdian Kepada Masyarakat (PKM) mata kuliah Pengelolaan Proyek Perangkat Lunak (PPPL), mulai dari analisis kebutuhan di kantor kelurahan, pengodean sistem, hingga presentasi akhir." data-en="Led the Community Service (PKM) team for the Software Project Management (PPPL) course, handling stakeholder interviews, full-stack coding, testing, and final handover presentation.">
-                            Memimpin tim proyek Pengabdian Kepada Masyarakat (PKM) mata kuliah Pengelolaan Proyek Perangkat Lunak (PPPL), mulai dari analisis kebutuhan di kantor kelurahan, pengodean sistem, hingga presentasi akhir.
+                        <p class="text-xs text-slate-400 mt-1.5 leading-relaxed"
+                            data-id="Memimpin tim proyek Pengabdian Kepada Masyarakat (PKM) mata kuliah Pengelolaan Proyek Perangkat Lunak (PPPL), mulai dari analisis kebutuhan di kantor kelurahan, pengodean sistem, hingga presentasi akhir."
+                            data-en="Led the Community Service (PKM) team for the Software Project Management (PPPL) course, handling stakeholder interviews, full-stack coding, testing, and final handover presentation.">
+                            Memimpin tim proyek Pengabdian Kepada Masyarakat (PKM) mata kuliah Pengelolaan Proyek
+                            Perangkat Lunak (PPPL), mulai dari analisis kebutuhan di kantor kelurahan, pengodean sistem,
+                            hingga presentasi akhir.
                         </p>
                     </div>
                 </div>
 
                 <!-- Milestone 3 -->
                 <div class="relative flex items-center justify-between sm:justify-normal sm:odd:flex-row-reverse group">
-                    <div class="flex items-center justify-center w-8 h-8 rounded-full border-2 border-cyan-400 bg-slate-950 text-cyan-400 shrink-0 sm:order-1 sm:group-odd:-translate-x-1/2 sm:group-even:translate-x-1/2 z-10">
+                    <div
+                        class="flex items-center justify-center w-8 h-8 rounded-full border-2 border-cyan-400 bg-slate-950 text-cyan-400 shrink-0 sm:order-1 sm:group-odd:-translate-x-1/2 sm:group-even:translate-x-1/2 z-10">
                         <i data-lucide="bus" class="w-4 h-4"></i>
                     </div>
                     <div class="w-[calc(100%-3rem)] sm:w-[calc(50%-2rem)] bento-card p-5">
                         <span class="text-xs font-mono text-cyan-400 font-bold">2024 – 2026</span>
-                        <h4 class="text-base font-bold text-white mt-1" data-id="Pengembangan Platform BusOnline (Penelitian Ilmiah & Skripsi)" data-en="BusOnline Platform Development (Scientific Research & Thesis)">
+                        <h4 class="text-base font-bold text-white mt-1"
+                            data-id="Pengembangan Platform BusOnline (Penelitian Ilmiah & Skripsi)"
+                            data-en="BusOnline Platform Development (Scientific Research & Thesis)">
                             Pengembangan Platform BusOnline (Penelitian Ilmiah & Skripsi)
                         </h4>
-                        <p class="text-xs text-slate-400 mt-1.5 leading-relaxed" data-id="Membangun platform agregator tiket bus antarkota se-Pulau Jawa (AKAP & AKDP) dalam 2 tahap: Penelitian Ilmiah (2024–2025) dan pengembangan lanjutan Skripsi (2025–2026)." data-en="Built a Java-wide intercity bus ticket aggregator platform (AKAP & AKDP) across two phases: Scientific Research (2024–2025) and Undergraduate Thesis expansion (2025–2026).">
-                            Membangun platform agregator tiket bus antarkota se-Pulau Jawa (AKAP & AKDP) dalam 2 tahap: Penelitian Ilmiah (2024–2025) dan pengembangan lanjutan Skripsi (2025–2026).
+                        <p class="text-xs text-slate-400 mt-1.5 leading-relaxed"
+                            data-id="Membangun platform agregator tiket bus antarkota se-Pulau Jawa (AKAP & AKDP) dalam 2 tahap: Penelitian Ilmiah (2024–2025) dan pengembangan lanjutan Skripsi (2025–2026)."
+                            data-en="Built a Java-wide intercity bus ticket aggregator platform (AKAP & AKDP) across two phases: Scientific Research (2024–2025) and Undergraduate Thesis expansion (2025–2026).">
+                            Membangun platform agregator tiket bus antarkota se-Pulau Jawa (AKAP & AKDP) dalam 2 tahap:
+                            Penelitian Ilmiah (2024–2025) dan pengembangan lanjutan Skripsi (2025–2026).
                         </p>
                     </div>
                 </div>
 
                 <!-- Milestone 4 -->
                 <div class="relative flex items-center justify-between sm:justify-normal sm:odd:flex-row-reverse group">
-                    <div class="flex items-center justify-center w-8 h-8 rounded-full border-2 border-slate-600 bg-slate-950 text-slate-300 shrink-0 sm:order-1 sm:group-odd:-translate-x-1/2 sm:group-even:translate-x-1/2 z-10">
+                    <div
+                        class="flex items-center justify-center w-8 h-8 rounded-full border-2 border-slate-600 bg-slate-950 text-slate-300 shrink-0 sm:order-1 sm:group-odd:-translate-x-1/2 sm:group-even:translate-x-1/2 z-10">
                         <i data-lucide="terminal" class="w-4 h-4"></i>
                     </div>
                     <div class="w-[calc(100%-3rem)] sm:w-[calc(50%-2rem)] bento-card p-5">
                         <span class="text-xs font-mono text-slate-400 font-bold">2022 – 2025</span>
-                        <h4 class="text-base font-bold text-white mt-1" data-id="Fondasi Informatika, Pelatihan Database, Golang & Jaringan" data-en="Informatics Foundation, Database, Golang & Networking Training">
+                        <h4 class="text-base font-bold text-white mt-1"
+                            data-id="Fondasi Informatika, Pelatihan Database, Golang & Jaringan"
+                            data-en="Informatics Foundation, Database, Golang & Networking Training">
                             Fondasi Informatika, Pelatihan Database, Golang & Jaringan
                         </h4>
-                        <p class="text-xs text-slate-400 mt-1.5 leading-relaxed" data-id="Menyelesaikan rangkaian pelatihan teknis Fundamental DBMS, Fundamental Web Programming, Oracle (Beginner & Intermediate), Golang (Beginner & Intermediate), serta Workshop Instalasi LAN Nirkabel." data-en="Completed intensive technical training in Fundamental DBMS, Fundamental Web Programming, Oracle (Beginner & Intermediate), Golang (Beginner & Intermediate), and Wireless LAN Installation Workshop.">
-                            Menyelesaikan rangkaian pelatihan teknis Fundamental DBMS, Fundamental Web Programming, Oracle (Beginner & Intermediate), Golang (Beginner & Intermediate), serta Workshop Instalasi LAN Nirkabel.
+                        <p class="text-xs text-slate-400 mt-1.5 leading-relaxed"
+                            data-id="Menyelesaikan rangkaian pelatihan teknis Fundamental DBMS, Fundamental Web Programming, Oracle (Beginner & Intermediate), Golang (Beginner & Intermediate), serta Workshop Instalasi LAN Nirkabel."
+                            data-en="Completed intensive technical training in Fundamental DBMS, Fundamental Web Programming, Oracle (Beginner & Intermediate), Golang (Beginner & Intermediate), and Wireless LAN Installation Workshop.">
+                            Menyelesaikan rangkaian pelatihan teknis Fundamental DBMS, Fundamental Web Programming,
+                            Oracle (Beginner & Intermediate), Golang (Beginner & Intermediate), serta Workshop Instalasi
+                            LAN Nirkabel.
                         </p>
                     </div>
                 </div>
@@ -825,16 +1101,21 @@
          ======================================================================= -->
     <section id="contact" class="relative z-10 py-20 px-4 bg-slate-950/80 border-t border-slate-900">
         <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-10">
-            
+
             <!-- Left: Direct Contact Channels (5 cols) -->
             <div class="lg:col-span-5 space-y-6">
                 <div>
-                    <span class="text-xs font-mono font-semibold text-emerald-400 uppercase tracking-widest" data-id="06 // KONTAK & KOLABORASI" data-en="06 // CONTACT & HIRE ME">06 // KONTAK & KOLABORASI</span>
-                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-1" data-id="Mari Bekerja Sama." data-en="Let's Work Together.">Mari Bekerja Sama.</h2>
+                    <span class="text-xs font-mono font-semibold text-emerald-400 uppercase tracking-widest"
+                        data-id="06 // KONTAK & KOLABORASI" data-en="06 // CONTACT & HIRE ME">06 // KONTAK &
+                        KOLABORASI</span>
+                    <h2 class="text-2xl sm:text-4xl font-extrabold text-white mt-1" data-id="Mari Bekerja Sama."
+                        data-en="Let's Work Together.">Mari Bekerja Sama.</h2>
                     <p class="text-xs sm:text-sm text-slate-400 mt-2 leading-relaxed"
-                       data-id="Tertarik mengundang wawancara atau berdiskusi mengenai posisi Full Stack Web Developer, Backend/Frontend Developer, System Analyst, atau IT Support? Silakan hubungi saya melalui kanal berikut:"
-                       data-en="Interested in scheduling an interview or discussing opportunities for Full Stack Web Developer, Backend/Frontend Developer, System Analyst, or IT Support roles? Reach out directly via:">
-                        Tertarik mengundang wawancara atau berdiskusi mengenai posisi Full Stack Web Developer, Backend/Frontend Developer, System Analyst, atau IT Support? Silakan hubungi saya melalui kanal berikut:
+                        data-id="Tertarik mengundang wawancara atau berdiskusi mengenai posisi Full Stack Web Developer, Backend/Frontend Developer, System Analyst, atau IT Support? Silakan hubungi saya melalui kanal berikut:"
+                        data-en="Interested in scheduling an interview or discussing opportunities for Full Stack Web Developer, Backend/Frontend Developer, System Analyst, or IT Support roles? Reach out directly via:">
+                        Tertarik mengundang wawancara atau berdiskusi mengenai posisi Full Stack Web Developer,
+                        Backend/Frontend Developer, System Analyst, atau IT Support? Silakan hubungi saya melalui kanal
+                        berikut:
                     </p>
                 </div>
 
@@ -843,33 +1124,43 @@
                     <!-- Email Card with 1-Click Copy -->
                     <div class="bento-card p-4 flex items-center justify-between gap-3">
                         <div class="flex items-center gap-3 min-w-0">
-                            <div class="w-10 h-10 rounded-xl bg-indigo-500/15 border border-indigo-500/30 text-indigo-400 flex items-center justify-center shrink-0">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-indigo-500/15 border border-indigo-500/30 text-indigo-400 flex items-center justify-center shrink-0">
                                 <i data-lucide="mail" class="w-5 h-5"></i>
                             </div>
                             <div class="min-w-0">
                                 <span class="text-[11px] text-slate-400 block">Email Profesional</span>
-                                <a href="mailto:rizkyms123@gmail.com" class="text-xs sm:text-sm font-bold text-white hover:text-indigo-400 truncate block">rizkyms123@gmail.com</a>
+                                <a href="mailto:rizkyms123@gmail.com"
+                                    class="text-xs sm:text-sm font-bold text-white hover:text-indigo-400 truncate block">rizkyms123@gmail.com</a>
                             </div>
                         </div>
-                        <button onclick="copyEmailAddress()" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 shrink-0 transition-colors" data-id="Salin" data-en="Copy">
+                        <button onclick="copyEmailAddress()"
+                            class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-200 shrink-0 transition-colors"
+                            data-id="Salin" data-en="Copy">
                             Salin
                         </button>
                     </div>
 
                     <!-- Copy Toast Notification -->
-                    <div id="copy-toast" class="hidden text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-3 py-2">
+                    <div id="copy-toast"
+                        class="hidden text-xs font-semibold text-emerald-400 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-3 py-2">
                         ✓ Alamat email rizkyms123@gmail.com berhasil disalin ke clipboard!
                     </div>
 
                     <!-- WhatsApp Direct Card -->
-                    <a href="https://wa.me/6285697992400?text=Halo%20Rizky%20Maulana%20Saputra,%20saya%20melihat%20website%20portofolio%20Anda%20dan%20ingin%20berdiskusi%20mengenai%20peluang%20kerja." target="_blank" rel="noopener" class="bento-card p-4 flex items-center justify-between gap-3 group">
+                    <a href="https://wa.me/6285697992400?text=Halo%20Rizky%20Maulana%20Saputra,%20saya%20melihat%20website%20portofolio%20Anda%20dan%20ingin%20berdiskusi%20mengenai%20peluang%20kerja."
+                        target="_blank" rel="noopener"
+                        class="bento-card p-4 flex items-center justify-between gap-3 group">
                         <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 flex items-center justify-center shrink-0">
+                            <div
+                                class="w-10 h-10 rounded-xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-400 flex items-center justify-center shrink-0">
                                 <i data-lucide="phone-call" class="w-5 h-5"></i>
                             </div>
                             <div>
                                 <span class="text-[11px] text-slate-400 block">WhatsApp / Telepon Aktif</span>
-                                <span class="text-xs sm:text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">+62 856-9799-2400</span>
+                                <span
+                                    class="text-xs sm:text-sm font-bold text-white group-hover:text-emerald-400 transition-colors">+62
+                                    856-9799-2400</span>
                             </div>
                         </div>
                         <span class="text-xs font-semibold text-emerald-400 inline-flex items-center gap-1">
@@ -879,12 +1170,17 @@
 
                     <!-- Location Card -->
                     <div class="bento-card p-4 flex items-center gap-3">
-                        <div class="w-10 h-10 rounded-xl bg-cyan-500/15 border border-cyan-500/30 text-cyan-400 flex items-center justify-center shrink-0">
+                        <div
+                            class="w-10 h-10 rounded-xl bg-cyan-500/15 border border-cyan-500/30 text-cyan-400 flex items-center justify-center shrink-0">
                             <i data-lucide="map-pin" class="w-5 h-5"></i>
                         </div>
                         <div>
-                            <span class="text-[11px] text-slate-400 block" data-id="Domisili Saat Ini" data-en="Current Location">Domisili Saat Ini</span>
-                            <span class="text-xs sm:text-sm font-bold text-white" data-id="Bekasi, Jawa Barat, Indonesia (Siap On-Site Jabodetabek / Hybrid / Remote)" data-en="Bekasi, West Java, Indonesia (Open for Jabodetabek On-Site / Hybrid / Remote)">Bekasi, Jawa Barat, Indonesia (Siap On-Site Jabodetabek / Hybrid / Remote)</span>
+                            <span class="text-[11px] text-slate-400 block" data-id="Domisili Saat Ini"
+                                data-en="Current Location">Domisili Saat Ini</span>
+                            <span class="text-xs sm:text-sm font-bold text-white"
+                                data-id="Bekasi, Jawa Barat, Indonesia (Siap On-Site Jabodetabek / Hybrid / Remote)"
+                                data-en="Bekasi, West Java, Indonesia (Open for Jabodetabek On-Site / Hybrid / Remote)">Bekasi,
+                                Jawa Barat, Indonesia (Siap On-Site Jabodetabek / Hybrid / Remote)</span>
                         </div>
                     </div>
                 </div>
@@ -893,22 +1189,33 @@
             <!-- Right: Smart Direct Message Form (7 cols) -->
             <div class="lg:col-span-7">
                 <form onsubmit="handleContactSubmit(event)" class="bento-card p-6 sm:p-8 space-y-4">
-                    <h3 class="text-lg font-bold text-white" data-id="Kirim Pesan Cepat (Tanpa Perlu Login)" data-en="Send a Quick Message">Kirim Pesan Cepat (Tanpa Perlu Login)</h3>
-                    
+                    <h3 class="text-lg font-bold text-white" data-id="Kirim Pesan Cepat (Tanpa Perlu Login)"
+                        data-en="Send a Quick Message">Kirim Pesan Cepat (Tanpa Perlu Login)</h3>
+
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
                         <div>
-                            <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-id="Nama Lengkap *" data-en="Full Name *">Nama Lengkap *</label>
-                            <input id="contact-name" type="text" required placeholder="Bapak/Ibu HRD..." data-placeholder-id="Nama Anda..." data-placeholder-en="Your Name..." class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs sm:text-sm text-white focus:outline-none focus:border-indigo-500">
+                            <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-id="Nama Lengkap *"
+                                data-en="Full Name *">Nama Lengkap *</label>
+                            <input id="contact-name" type="text" required placeholder="Bapak/Ibu HRD..."
+                                data-placeholder-id="Nama Anda..." data-placeholder-en="Your Name..."
+                                class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs sm:text-sm text-white focus:outline-none focus:border-indigo-500">
                         </div>
                         <div>
-                            <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-id="Nama Perusahaan / Instansi" data-en="Company / Organization">Nama Perusahaan / Instansi</label>
-                            <input id="contact-company" type="text" placeholder="PT ..." data-placeholder-id="Nama Perusahaan..." data-placeholder-en="Company Name..." class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs sm:text-sm text-white focus:outline-none focus:border-indigo-500">
+                            <label class="block text-xs font-semibold text-slate-300 mb-1.5"
+                                data-id="Nama Perusahaan / Instansi" data-en="Company / Organization">Nama Perusahaan /
+                                Instansi</label>
+                            <input id="contact-company" type="text" placeholder="PT ..."
+                                data-placeholder-id="Nama Perusahaan..." data-placeholder-en="Company Name..."
+                                class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs sm:text-sm text-white focus:outline-none focus:border-indigo-500">
                         </div>
                     </div>
 
                     <div>
-                        <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-id="Posisi / Topik Diskusi" data-en="Role / Discussion Topic">Posisi / Topik Diskusi</label>
-                        <select id="contact-role" class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs sm:text-sm text-white focus:outline-none focus:border-indigo-500">
+                        <label class="block text-xs font-semibold text-slate-300 mb-1.5"
+                            data-id="Posisi / Topik Diskusi" data-en="Role / Discussion Topic">Posisi / Topik
+                            Diskusi</label>
+                        <select id="contact-role"
+                            class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs sm:text-sm text-white focus:outline-none focus:border-indigo-500">
                             <option value="Full Stack Web Developer">Full Stack Web Developer</option>
                             <option value="Backend Developer">Backend Developer</option>
                             <option value="Frontend Developer">Frontend Developer</option>
@@ -919,16 +1226,23 @@
                     </div>
 
                     <div>
-                        <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-id="Pesan Anda *" data-en="Your Message *">Pesan Anda *</label>
-                        <textarea id="contact-message" rows="4" required placeholder="Halo Rizky, kami tertarik mengundang Anda untuk sesi interview..." data-placeholder-id="Tulis pesan atau detail undangan interview..." data-placeholder-en="Write your message or interview invitation details..." class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs sm:text-sm text-white focus:outline-none focus:border-indigo-500"></textarea>
+                        <label class="block text-xs font-semibold text-slate-300 mb-1.5" data-id="Pesan Anda *"
+                            data-en="Your Message *">Pesan Anda *</label>
+                        <textarea id="contact-message" rows="4" required
+                            placeholder="Halo Rizky, kami tertarik mengundang Anda untuk sesi interview..."
+                            data-placeholder-id="Tulis pesan atau detail undangan interview..."
+                            data-placeholder-en="Write your message or interview invitation details..."
+                            class="w-full px-3.5 py-2.5 rounded-xl bg-slate-900 border border-slate-800 text-xs sm:text-sm text-white focus:outline-none focus:border-indigo-500"></textarea>
                     </div>
 
                     <!-- Channel Selector -->
                     <div class="flex flex-wrap items-center justify-between gap-4 pt-2">
                         <div class="flex items-center gap-4 text-xs text-slate-300">
-                            <span class="font-semibold" data-id="Kirim Melalui:" data-en="Send Via:">Kirim Melalui:</span>
+                            <span class="font-semibold" data-id="Kirim Melalui:" data-en="Send Via:">Kirim
+                                Melalui:</span>
                             <label class="inline-flex items-center gap-1.5 cursor-pointer">
-                                <input type="radio" name="send_channel" value="whatsapp" checked class="accent-emerald-500">
+                                <input type="radio" name="send_channel" value="whatsapp" checked
+                                    class="accent-emerald-500">
                                 <span>WhatsApp Instan</span>
                             </label>
                             <label class="inline-flex items-center gap-1.5 cursor-pointer">
@@ -937,7 +1251,8 @@
                             </label>
                         </div>
 
-                        <button type="submit" class="px-6 py-3 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-indigo-600 to-emerald-600 hover:from-indigo-500 hover:to-emerald-500 text-white shadow-lg transition-all inline-flex items-center gap-2">
+                        <button type="submit"
+                            class="px-6 py-3 rounded-xl font-bold text-xs sm:text-sm bg-gradient-to-r from-indigo-600 to-emerald-600 hover:from-indigo-500 hover:to-emerald-500 text-white shadow-lg transition-all inline-flex items-center gap-2">
                             <i data-lucide="send" class="w-4 h-4"></i>
                             <span data-id="Kirim Pesan Sekarang" data-en="Send Message Now">Kirim Pesan Sekarang</span>
                         </button>
@@ -955,10 +1270,14 @@
         <div class="max-w-6xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
             <p>© 2026 <strong>Rizky Maulana Saputra, S.Kom.</strong> All rights reserved.</p>
             <div class="flex items-center gap-5 text-slate-400">
-                <a href="https://github.com/DoICare" target="_blank" rel="noopener" class="hover:text-white transition-colors">GitHub</a>
-                <a href="https://www.linkedin.com/in/rizkymaulanasaputra14" target="_blank" rel="noopener" class="hover:text-white transition-colors">LinkedIn</a>
-                <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_ID.pdf" target="_blank" class="hover:text-emerald-400 transition-colors">CV (ID)</a>
-                <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_EN.pdf" target="_blank" class="hover:text-indigo-400 transition-colors">CV (EN)</a>
+                <a href="https://github.com/DoICare" target="_blank" rel="noopener"
+                    class="hover:text-white transition-colors">GitHub</a>
+                <a href="https://www.linkedin.com/in/rizkymaulanasaputra14" target="_blank" rel="noopener"
+                    class="hover:text-white transition-colors">LinkedIn</a>
+                <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_ID.pdf" target="_blank"
+                    class="hover:text-emerald-400 transition-colors">CV (ID)</a>
+                <a href="assets/cv/CV_ATS_Rizky_Maulana_Saputra_EN.pdf" target="_blank"
+                    class="hover:text-indigo-400 transition-colors">CV (EN)</a>
             </div>
         </div>
     </footer>
@@ -966,12 +1285,15 @@
     <!-- =======================================================================
          11. FULLSCREEN LIGHTBOX MODAL UNTUK 9 FOTO DOKUMENTASI PKM PPPL
          ======================================================================= -->
-    <div id="lightbox-modal" class="hidden fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-md items-center justify-center p-4">
-        <div class="relative max-w-4xl w-full bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
+    <div id="lightbox-modal"
+        class="hidden fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-md items-center justify-center p-4">
+        <div
+            class="relative max-w-4xl w-full bg-slate-900 border border-slate-800 rounded-2xl overflow-hidden shadow-2xl">
             <!-- Top Bar -->
             <div class="flex items-center justify-between px-5 py-3.5 border-b border-slate-800">
                 <span id="lightbox-date" class="text-xs font-mono text-emerald-400"></span>
-                <button onclick="closeLightbox()" class="p-1.5 rounded-lg bg-slate-800 hover:bg-rose-600 text-slate-300 hover:text-white transition-colors">
+                <button onclick="closeLightbox()"
+                    class="p-1.5 rounded-lg bg-slate-800 hover:bg-rose-600 text-slate-300 hover:text-white transition-colors">
                     <i data-lucide="x" class="w-4 h-4"></i>
                 </button>
             </div>
@@ -979,12 +1301,14 @@
             <!-- Image Container -->
             <div class="relative bg-black flex items-center justify-center max-h-[68vh] overflow-hidden">
                 <img id="lightbox-img" src="" alt="Dokumentasi PKM PPPL" class="max-h-[68vh] w-auto object-contain">
-                
+
                 <!-- Prev / Next Controls -->
-                <button onclick="changeLightboxSlide(-1)" class="absolute left-3 p-2.5 rounded-full bg-slate-900/80 hover:bg-indigo-600 text-white border border-slate-700 transition-all">
+                <button onclick="changeLightboxSlide(-1)"
+                    class="absolute left-3 p-2.5 rounded-full bg-slate-900/80 hover:bg-indigo-600 text-white border border-slate-700 transition-all">
                     <i data-lucide="chevron-left" class="w-5 h-5"></i>
                 </button>
-                <button onclick="changeLightboxSlide(1)" class="absolute right-3 p-2.5 rounded-full bg-slate-900/80 hover:bg-indigo-600 text-white border border-slate-700 transition-all">
+                <button onclick="changeLightboxSlide(1)"
+                    class="absolute right-3 p-2.5 rounded-full bg-slate-900/80 hover:bg-indigo-600 text-white border border-slate-700 transition-all">
                     <i data-lucide="chevron-right" class="w-5 h-5"></i>
                 </button>
             </div>
@@ -1000,4 +1324,5 @@
     <!-- Main JavaScript -->
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
